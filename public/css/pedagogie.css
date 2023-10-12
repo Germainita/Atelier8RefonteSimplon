@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Declaration des variable pour les couleurs */
+:root {
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color: white;
+}
+/* stylisation de la baniere */
+
+.banierre {
+    background-image: url('../images/article/banierre.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: -10vh;
+    color: white;
+    padding: 32vh 0;
+}
+
+.banierre h1 {
+    font-size: 9vh;
+}
+/* stylisation de la premiere section */
+.grid-contain-pedagogie{
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 81% 35%;
+}
+.paragraphe-pedagogie{
+    /* border: 3px solid red; */
+    height: 150px;
+    background-color: #F6F6F6;
+    text-align: justify;
+    font-size: 17px;
+}
+.titre-pedagogie{
+    /* border: 3px solid green; */
+    margin-left: -30vh;
+    margin-top: 20vh;
+    height: 130px;
+    width: 100%;
+    background-color: var(--main-color);
+    
+}
+#grid-contain-approche{
+    display: grid;
+    grid-template-columns: 1.6fr 2fr;
+    gap: 6vh;
+    padding: 20px
+}
+/* Stilisation de la section plier */
+.grid-contain-piliers{
+    /* border: 3px solid yellow; */
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 40px;
+}
+.grid-items-piliers{
+    padding: 20px;
+    background-color: white;
+    text-align: justify;
+    box-shadow: 5px 5px 10px #F3F3F3;
+}
+/* stylisation last section */
+.grid-contain-last-section{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+.paragraphe-last-section,.image-last-section{
+    height: auto;
+    text-align: justify;
+    background-color: var(--third-color);
+}
+
+
+/* Media queries */
+@media (max-width: 767px) {
+
+    #grid-contain-approche {
+        display: grid;
+        grid-template-columns: 2fr;
+        /* gap: 6vh; */
+        padding: 20px
+    }
+    .banierre {
+        background-image: url('../images/article/banierre.PNG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        margin-top: -10vh;
+        color: white;
+        padding: 32vh 0;
+    }
+
+    .banierre h1 {
+        font-size: 4vh;
+    }
+    .grid-contain-piliers {
+        /* border: 3px solid yellow; */
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 40px;
+    }
+    /* stylisation de la premiere section */
+    .grid-contain-pedagogie {
+        /* border: 2px solid; */
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .titre-pedagogie {
+        /* border: 3px solid green; */
+        margin-left: 5vh;
+        margin-top: 20vh;
+        height: 130px;
+        width: 70%;
+        background-color: var(--main-color);
+    }
+    
+    /* last section */
+    .grid-contain-last-section {
+        display: grid;
+        grid-template-columns: 2fr;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #grid-contain-approche {
+        display: grid;
+        grid-template-columns: 2fr;
+        /* gap: 6vh; */
+        padding: 20px
+    }
+    .banierre {
+        background-image: url('../images/article/banierre.PNG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        margin-top: -10vh;
+        color: white;
+        padding: 32vh 0;
+    }
+
+    .banierre h1 {
+        font-size: 4vh;
+    }
+
+    .grid-contain-piliers {
+        /* border: 3px solid yellow; */
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 40px;
+    }
+
+    /* last section */
+    .grid-contain-last-section {
+        display: grid;
+        grid-template-columns: 2fr;
+
+    }
+}

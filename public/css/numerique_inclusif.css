@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Declaration des variable pour les couleurs */
+:root {
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color: white;
+}
+
+/* stylisation de la baniere */
+
+.banierre {
+    background-image: url('../images/article/banierre.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: -10vh;
+    color: white;
+    padding: 32vh 0;
+}
+
+.banierre h1 {
+    font-size: 9vh;
+}
+/* stylisation de la premiere section */
+.grid-contain-numerique{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* border: 2px solid; */
+    background-color: #F3F3F3;
+}
+/* Stylisation de la dernier section */
+.last-section-numerique{
+    background-color: #F3F3F3;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.image-labo{
+    width: 20%;
+    border: 2px solid #96c137;
+}
+.text-last-section-numerique{
+    width: 20%;
+    border: 2px solid #CE0033;
+    border: 2px solid #CE0033;
+
+}
+/* Stylisation des span sur les images */
+.developer {
+    background-color: var(--third-color);
+    color: var(--main-color);
+    text-align: center;
+}
+#block span {
+    display: inline-block;
+    background: white;
+    padding: 4px 15px;
+    font-size: 0.75rem;
+    border-radius: 0 50px 50px 0;
+    font-weight: 600;
+    width: auto;
+    position: absolute;
+    left: 15px;
+    top: 16px;
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+    .grid-contain-numerique{
+        display: grid;
+        grid-template-columns: 2fr;
+        background-color: #F3F3F3;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 990px){
+    .grid-contain-numerique {
+            display: grid;
+            grid-template-columns: 2fr;
+            background-color: #F3F3F3;
+        }
+
+}
