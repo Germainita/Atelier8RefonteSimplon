@@ -554,6 +554,11 @@
     font-weight: bold;
  }
 
+#text{
+    display: block;
+    margin-top: 48px;
+ }
+
  
  .Container_Programme_bt button{
     background-color: #CE0033;
