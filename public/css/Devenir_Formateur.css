@@ -321,10 +321,10 @@
     display: block;
     /* top: 0; */
     right: 0;
-    position: absolute;
+    position: fixed;
     transition: 1s;
     /* height: 100%; */
-    min-height: 100%;
+    height: 100%;
     /* min-width: 800px; */
     }
 
@@ -456,6 +456,58 @@
     color: #CE0033;
     margin-bottom: 10px;
 }
+
+.Container_Formation_Text h3{
+    text-align: center;
+}
+
+#germaine{
+   display: block;
+   margin: auto;
+   width: 100px;
+   height: 3px;
+   background-color: #CE0033;
+   margin-bottom: 15px;
+}
+
+.Container_Formation_Text p{
+    text-align: center;
+}
+
+.Container_Formation_Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.Container_Card_item{
+    width: 330px;
+    min-height: 450px;
+    background-color: #CE0033;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.Card_item_img{
+    width: 100%;
+    min-height: 200px;
+}
+
+.Card_item_img img{
+    display: block;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.Card_item_text{
+    width: 100%;
+    min-height: 250px;
+    background-color: white;
+}
+
 /*---------------------- Fin Section Contenu----------------*/
 
 
