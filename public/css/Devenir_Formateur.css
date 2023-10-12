@@ -485,7 +485,7 @@
 
 .Container_Card_item{
     width: 330px;
-    min-height: 450px;
+    min-height: 500px;
     background-color: #CE0033;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
@@ -493,20 +493,109 @@
 
 .Card_item_img{
     width: 100%;
-    min-height: 200px;
+    min-height: 250px;
 }
 
 .Card_item_img img{
     display: block;
     margin: auto;
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 .Card_item_text{
     width: 100%;
     min-height: 250px;
     background-color: white;
+
 }
+.Card_item_text p, h4{
+    text-align: center;
+    padding-top: 1em;
+}
+
+#germaine{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    background-color: #CE0033;
+    margin-bottom: 15px;
+    margin-bottom: 50px;
+ }
+
+ .Container_file_video{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+ }
+
+ .Container_Formation_Accordion{
+    width: 80%;
+    display: block;
+    margin: auto;
+ }
+
+ .btn1{
+    color: #CE0033;
+ }
+
+ .accordion{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+ }
+
+ .Dev_Web, .DevOps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .Dev_Web p:nth-child(1), .DevOps p:nth-child(1){
+    font-weight: bold;
+ }
+
+ 
+ .Container_Programme_bt button{
+    background-color: #CE0033;
+    color: white;
+    padding: 0.8em;
+    width: auto;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+ }
+
+ .Container_file_video1{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+ }
+
+
+ .Container_Collaboration p{
+    text-align: center;
+ }
+
+ .Container_Collaboration button{
+    background-color: #CE0033;
+    color: white;
+    padding: 0.8em;
+    width: auto;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+ }
+
+ #border_btm{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    background-color: #CE0033;
+    margin-bottom: 15px;
+ }
 
 /*---------------------- Fin Section Contenu----------------*/
 
