@@ -1,0 +1,51 @@
+:root {
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color: white;
+    --header-color: #262626;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Debut section Témoignages */
+.temoignage-actu .card-element {
+    padding: 0;
+}
+
+.temoignage-actu .video-temoin{
+    border-top-left-radius: 20vh;
+    border-top-right-radius: 20vh;
+}
+
+.temoignage-actu .profil{
+    justify-content: end;
+}
+
+.temoignage-actu .profil-name{
+    text-align: end;
+    margin-right: 2vh;
+}
+.temoignage-actu .profil-name .metier{
+    color: var(--main-color);
+}
+
+.temoignage-actu .profil img{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+}
+
+.temoignage-actu .bouton{
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+}
+
+/* Fin section Témoignages */
+
+/* Debut section actualité */
+
+/* Fin section actualité */

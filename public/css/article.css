@@ -1,0 +1,244 @@
+:root {
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color: white;
+    --header-color: #262626;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* La banierre  */
+.banierre{
+    background-image: url('../images/banierre/banierre.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: -10vh;
+    color: white;
+    padding: 20vh 0;
+}
+.banierre h1{
+    font-size: 9vh;
+}
+
+
+.banierre a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Les elements de séparation  */
+.rotation-square{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    rotate: -45deg;
+}
+
+.soulignement{
+    width: 20vh;
+    /* margin: 2vh; */
+    margin: 0 auto 2vh;
+    display: block;
+    background-color: var(--main-color);
+    height: 2px;
+}
+
+/* .ligne-bref{
+    margin: 0 7vh 2vh;
+} */
+
+/* La pagination  */
+.pagination{
+    margin-top: 5.8vh;
+}
+.pagination p{
+    width: 90%;
+    text-align: center;
+}
+
+.pagination .bi{
+    color: var(--main-color);
+}
+
+/* Les actualités les plus recents  */
+.article .card-element{
+    border-top-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    height: 60vh;
+    border: none;
+}
+
+.article .card-element img{
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 5vh;
+}
+
+.article .card-element a{
+    text-decoration: none;
+    color: black;
+}
+/* Fin actualités les plus recents  */
+
+/* Autre articles  */
+ .card-brefs-item{
+    border: none;
+    border-bottom: 1px solid var(--main-color);
+    /* height: 20vh; */
+}
+
+
+.card-brefs-item img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5vh;
+}
+
+.card-brefs-item .card-title{
+    font-size: 2.8vh;
+}
+
+
+/* Fin autres articles */
+
+/* Temoignages  */
+.temoignages .card{
+    border: none;
+    height: 50vh;
+}
+.temoignages .temoignage-text{
+    text-align: justify;
+}
+.temoignages .circle{
+    width: 30vh;
+    height: 30vh;
+    border: 15px solid var(--main-color);
+    opacity: 0.3;
+    margin-top: -10vh;
+}
+.temoignages .profil{
+    justify-content: end;
+    margin-top: -20vh;
+}
+
+.temoignages .profil-name{
+    text-align: end;
+    margin: 7vh 2vh;
+    font-size: 3vh;    
+}
+
+.temoignages .profil-name .metier{
+    color: var(--main-color);
+}
+
+.temoignages .profil img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100%;
+}
+
+.temoignages .pagination{
+    margin: 0 auto 8vh;
+
+}
+
+
+/* Medias  */
+@media screen and (max-width:1000px){
+    .article .card-brefs-item .card-title{
+        font-size: 1.5vh;
+    }
+    .article .card-brefs-item .date{
+        font-size: 1.3vh;
+    }
+    
+}
+
+
+@media screen and (max-width:760px) {
+    .article .card-element{
+        height: 50vh;
+    }
+
+    .article .card-brefs-item .card-title{
+        font-size: 3vh;
+    }
+    .article .card-brefs-item .date{
+        font-size: 2.8vh;
+    }
+
+    .article .card-brefs-item img{
+        height: 80%;
+    }
+    .article .card-brefs-item .card-body{
+        margin-top: -8vh;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .banierre{
+        padding: 10vh 0;
+    }
+    .banierre h1{
+        font-size: 7vh;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    
+    .banierre h1{
+        font-size: 6vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .temoignages .circle{
+        width: 25vh;
+        height: 25vh;
+    }
+
+    .temoignages .profil{
+        justify-content: end;
+        margin-top: -17vh;
+    }
+    
+    .temoignages .profil-name{
+        font-size: 2vh;   
+        /* margin-top: 20vh;  */
+    }
+}
+    /* .temoignages .circle{
+        width: 30vh;
+        height: 30vh;
+        border: 15px solid var(--main-color);
+        opacity: 0.3;
+        margin-top: -10vh;
+    }
+    .temoignages .profil{
+        justify-content: end;
+        margin-top: -20vh;
+    }
+    
+    .temoignages .profil-name{
+        text-align: end;
+        margin: 7vh 2vh;
+        font-size: 3vh;    
+    }
+    
+    .temoignages .profil-name .metier{
+        color: var(--main-color);
+    }
+    
+    .temoignages .profil img{
+        width: 10vh;
+        height: 10vh;
+    }
+} */

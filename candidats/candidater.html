@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/article.css">
+    <link rel="stylesheet" href="../public/css/header_footer.css">
+    <link rel="stylesheet" href="../public/css/candidater.css">
+
+    <script src="../Menu/Menu.js"></script>
+    <title>Les articles</title>
+</head>
+<body>
+    <!------------------Début Section Container_Menu --------------------------->
+    <div class="Container_Menu">
+        <!------------------Debut Section Prémier Menu------------------------->
+        <div class="FirstMenu">
+            <ul>
+                <li><a href="Menu.html"><img src="../public/images/Menu_Footer/logo.png" alt="">Simplon.co</a></li>
+                <li class="dropdown">A-propos&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                    <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="#">Qui Somme Nous ?</a>
+                        <a href="#">Notre Pedagogie</a>
+                        <a href="#">Notre Reseaux de Fabrique</a>
+                        <a href="#">Un Numérique Inclusif</a>
+                        <a href="#">Anti-FAQ</a>
+                    </div>
+                    <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li class="dropdown">Entreprise&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                    <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="#">Former ces Salariés ?</a>
+                        <a href="#">Collecte de la tva 2023</a>
+                    </div>
+                     <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li class="dropdown">Alternance&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                     <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="#">Faire ma formation en alternance</a>
+                        <a href="#">Recruter en Alternance</a>
+                    </div>
+                     <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li>Devenir Formateur</li>
+                <li class="Social_Media"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i></li>
+                <!-- <span><i class="fa-solid fa-bars iconeBarLeft"id="cach1" style="font-size: 30px;" ></i></span> -->
+                <i class="fa-solid fa-bars iconeBarRight" id="cach" style="font-size: 30px;" onclick="afficher()"></i>
+               
+            </ul>
+        </div>
+        <!------------------------ Fin Section Prémier Menu --------------------->
+        <!------------------------Début Section Sidebar Bar Accordion --------------------->
+        <div id="MenuSec" >
+            <br><br>
+            <div class="accordion accordion-flush" id="">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Formation
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Infrastructure & Cybersécurité</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Développement d'Application</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Fondamentaux Numérique</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Gestion de projet Agile</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Cloud & DevOps</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Data & Intelligence Artificielle</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Métavers & XR</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Blockchain</li></a>
+                           </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Candidats
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Candidater</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Valider ses acquis par la VAE</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les femmes</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Candidater</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Personne en situation de handicap</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les refugiés et les ressortissants non européens</li></a>
+                            <li>Presse</li>
+                           </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Blog
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                       <ul>
+                          <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Article</li></a>
+                          <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Presse</li></a>
+                       </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwoTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoTwo" aria-expanded="false" aria-controls="flush-collapseTwoTwo">
+                        A-Propos
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwoTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Qui Somme Nous ?</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Pedagogie</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Reseaux de Fabrique</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Un Numérique Inclusif</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Anti-FAQ</li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEntreprise">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEntreprise" aria-expanded="false" aria-controls="flush-collapseEntreprise">
+                        Entreprise
+                      </button>
+                    </h2>
+                    <div id="flush-collapseEntreprise" class="accordion-collapse collapse" aria-labelledby="flush-headingEntreprise" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Former ses Salariés ?</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Collecte de la Tva 2023</li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingAlternance">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAlternance" aria-expanded="false" aria-controls="flush-collapseAlternance">
+                        Alternance
+                      </button>
+                    </h2>
+                    <div id="flush-collapseAlternance" class="accordion-collapse collapse" aria-labelledby="flush-headingAlternance" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Faire ma formation en Alternance</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Recruter en Alternance/li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+            <ul>
+                <li><span onclick="cacher()" id="X_Bar"><i class="fa-solid fa-x"></i></span></li>
+            </ul>
+        </div>
+        <!-------------------------Fin Section Sidebar Bar Accordion ----------------------->
+        <!-------------------------- Début Section SecondMenu ---------------------------->
+        <div class="SecondMenu">
+            <div class="SecondMenu_Image">
+                <img src="../public/images/Menu_Footer/simplon (1).png" alt="">
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/formation-removebg-preview.png" alt="">
+                <div>
+                    <h6>Formation&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Decouvrir nos Formation</span>
+                </div>
+                <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="#">Infrastrurcute & Cybersécurité</a>
+                    <a href="#">Développement d'application</a>
+                    <a href="#">Fondamentaux numérique</a>
+                    <a href="#">Gestion de projet agile</a>
+                    <a href="#">Cloud & Devops</a>
+                    <a href="#">Data & Intelligence Artificielle</a>
+                    <a href="#">Métavers & XR</a>
+                    <a href="#">Blockchain</a>
+                </div>
+                <!-----------------Fin Sous Menu----------------->
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/candidat-removebg-preview.png" alt="" style="max-width: 60px; height: 50px;">
+                <div>
+                    <h6>Candidats&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Lire nos derniers Articles</span>
+                </div>
+                 <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="#">Candidater</a>
+                    <a href="#">Valider ses acquis par la VAE</a>
+                    <a href="#">Nos actions pour les femmes</a>
+                    <a href="#">Personnes en situation de handicap</a>
+                    <a href="#">Nos actions pour les refugiés et ressortissants non européens</a>
+                </div>
+                 <!-----------------Fin Sous Menu----------------->
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/blog-removebg-preview.png" alt="">
+                <div>
+                    <h6>Blog&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Lire nos derniers Articles</span>
+                </div>
+                 <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="#">Article</a>
+                    <a href="#">Presse</a>
+                </div>
+                 <!-----------------Fin Sous Menu----------------->
+            </div>
+        </div>
+        <!---------------Fin Section du Second Menu --------------------------->
+
+        <!---------------Debut Section de votre Contenu ------------------>
+        <div class="contenu-candidater">
+            <div class="banierre">
+                <div class="title text-center mb-5">
+                    <h1 class="card-title mb-2">Trouvez votre formation</h1>
+                    <p class="card-text">
+                        Vous recherchez une formation aux métiers du numérique ? <br>
+                        Vous êtes au bon endroit ! Découvrez toutes les sessions de formation ouvertes <br>
+                        à la candidature grâce au moteur de recherche ci-dessous.    
+                    </p>
+                </div>
+                
+                <p class="card-text chemin fs-4 fw-bold ms-4"><a href="../accueil/accueil.html">Home </a> <span> / Candidats/ Candidater</span></p>
+            </div>
+            <div class="container ">
+                <div class="rotation-square mt-4"></div>
+        
+                <!-- Recherche formations  -->
+                <div class="recherche-formation text-center mt-5 mb-5">
+                    <h3 class="fw-bold">Recherchez la formation qui vous convient</h3>
+                    <span class="soulignement"></span>
+
+                    <div class="row px-5">
+                        <!-- Formation  -->
+                        <div class="recherche col-md-6 px-5 mb-3">
+                            <select class="form-select bg-body-secondary py-3" aria-label="Default select example">
+                                <option selected >Formations ...</option>
+                                <option>Infrastructure et Cybersécurité</option>
+                                <option>Developpement d'application</option>
+                                <option>Fondamentaux numérique</option>
+                                <option>Gestion de projet agile</option>
+                                <option>Cloud et devops</option>
+                                <option>Data et Intelligence Artificielle</option>
+                                <option>Metavers et XR</option>
+                                <option>Blockchain</option>
+                            </select>
+                        </div>
+                        <!-- Pays et region  -->
+                        <div class="pays-region col-md-6 px-5 mb-3">
+                            <select class="form-select bg-body-secondary py-3" aria-label="Default select example">
+                                <option selected >Pays/Régions ... </option>
+                                <option>Dakar</option>
+                                <option>Ile-de-france</option>
+                                <option>Basse-Normandie</option>
+                                <option>Centre-Val de Loire</option>
+                                <option>Grand Est</option>
+                            </select>
+                        </div>
+    
+                        <div class="duree col-md-6 px-5 mb-3">
+                            <select class="form-select bg-body-secondary py-3" aria-label="Default select example">
+                                <option selected >Duree ...</option>
+                                <option>Moins de 10 jours</option>
+                                <option>Moins de 3 mois </option>
+                                <option>Moins de 7 mois</option>
+                            </select>
+                        </div>
+    
+                        <!-- Mois de debut  -->
+                        <div class="mois col-md-6 px-5 mb-3">
+                            <select class="form-select bg-body-secondary py-3" aria-label="Default select example">
+                                <option selected >Mois de début ...</option>
+                                <option>Octobre 2023</option>
+                                <option>Novembre 2023</option>
+                                <option>Decembre 2023</option>
+                                <option>Janvier 2024</option>
+                            </select>
+                        </div>
+    
+                        <!-- Date limite candidature  -->
+                        <div class="date-limite col-md-6 px-5 mb-3">
+                            <select class="form-select bg-body-secondary py-3" aria-label="Default select example">
+                                <option selected >Date limite de condidature ...</option>
+                                <option>Octobre 2023</option>
+                                <option>Novembre 2023</option>
+                                <option>Decembre 2023</option>
+                                <option>Janvier 2024</option>
+                            </select>
+                        </div>
+    
+                        <!-- Alternance  -->
+                        <div class="alternance col-md-6 px-5 mb-3">
+                            <select class="form-select bg-body-secondary py-3" aria-label="Default select example">
+                                <option selected >Alternance ...</option>
+                                <option>Oui</option>
+                                <option>Non</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+        
+                <!-- Les formations  -->
+                <h2>60 Formations</h2>
+                <div class="formation mb-5">
+                    <div class="row">
+                        <!-- formation 1 -->
+                        <div class="formation-item col-md-6 px-4 mb-5 mt-4">
+                            <div class="card">
+                                <img src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?size=626&ext=jpg&ga=GA1.1.59389668.1692912989&semt=ais" alt="">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">Apple Foundation Program - Développement mobile iOS - oct/nov 2023</h4>
+                                    <p class="my-4 fs-5">Simplon Toulouse</p>
+            
+                                    <div class="row info mb-5">
+                                        <div class="col-4">
+                                            <div class=" info-item info-formation">
+                                                <i class="bi bi-calendar"></i>
+                                                <p>Debut: Octobre 2023</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-fex info-item info-formation">
+                                                <i class="fa-solid fa-hourglass"></i>
+                                                <p>Inférieur à 3 mois</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-fex info-item">
+                                                <i class="bi bi-geo-alt-fill"></i>
+                                                <p>Occitanie</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="limite">
+                                        <p class="info-limite">Date limite de la candidature: </p>
+                                        <p class="date">09/10/2023</p>
+                                    </div>
+
+                                    <div class="button d-fex d-flex justify-content-between ">
+                                        <div class="col-md-6  decouvrir">
+                                            <a href="#" class="btn btn-formation">Decouvrir la session</a>
+                                        </div>
+                                        <div class="col-md-5  pustuler">
+                                            <a href="#" class="btn btn-formation">Postuler</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Formation 2  -->
+                        <div class="formation-item col-md-6 px-4 mb-5 mt-4">
+                            <div class="card">
+                                <img src="https://img.freepik.com/free-photo/close-up-people-working_23-2149033802.jpg?size=626&ext=jpg&ga=GA1.1.59389668.1692912989&semt=ais" alt="">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">SAS préparatoire à la formation Développeur.se .NET</h4>
+                                    <p class="my-4 fs-5">Simplon Roubaix</p>
+            
+                                    <div class="row info mb-5">
+                                        <div class="col-4">
+                                            <div class=" info-item info-formation">
+                                                <i class="bi bi-calendar"></i>
+                                                <p>Debut: Octobre 2023</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-fex info-item info-formation">
+                                                <i class="fa-solid fa-hourglass"></i>
+                                                <p>Inférieur à 3 mois</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-fex info-item">
+                                                <i class="bi bi-geo-alt-fill"></i>
+                                                <p>Occitanie</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="limite">
+                                        <p class="info-limite">Date limite de la candidature: </p>
+                                        <p class="date">10/10/2023</p>
+                                    </div>
+
+                                    <div class="button d-fex d-flex justify-content-between ">
+                                        <div class="col-md-6  decouvrir">
+                                            <a href="#" class="btn btn-formation">Decouvrir la session</a>
+                                        </div>
+                                        <div class="col-md-5  pustuler">
+                                            <a href="#" class="btn btn-formation">Postuler</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <!-- Formation 3 -->
+                        <div class="formation-item col-md-6 px-4 mb-5 mt-4">
+                            <div class="card">
+                                <img src="https://img.freepik.com/free-photo/medium-shot-students_23-2148913245.jpg?size=626&ext=jpg&ga=GA1.1.59389668.1692912989&semt=ais" alt="">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">Apple Foundation Program - Développement mobile iOS - oct/nov 2023</h4>
+                                    <p class="my-4 fs-5">Simplon Toulouse</p>
+            
+                                    <div class="row info mb-5">
+                                        <div class="col-4">
+                                            <div class=" info-item info-formation">
+                                                <i class="bi bi-calendar"></i>
+                                                <p>Debut: Octobre 2023</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-fex info-item info-formation">
+                                                <i class="fa-solid fa-hourglass"></i>
+                                                <p>Inférieur à 3 mois</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-fex info-item">
+                                                <i class="bi bi-geo-alt-fill"></i>
+                                                <p>Occitanie</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="limite">
+                                        <p class="info-limite">Date limite de la candidature: </p>
+                                        <p class="date">12/10/2023</p>
+                                    </div>
+
+                                    <div class="button d-fex d-flex justify-content-between ">
+                                        <div class="col-md-6  decouvrir">
+                                            <a href="#" class="btn btn-formation">Decouvrir la session</a>
+                                        </div>
+                                        <div class="col-md-5  pustuler">
+                                            <a href="#" class="btn btn-formation">Postuler</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <!-- Foemation 4 -->
+                        <div class="formation-item col-md-6 px-4 mb-5 mt-4">
+                            <div class="card">
+                                <img src="https://img.freepik.com/free-photo/trainer-explaining-software-specifics-new-employee_74855-1666.jpg?size=626&ext=jpg&ga=GA1.1.59389668.1692912989&semt=ais" alt="">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">Découverte des métiers du numérique - spécialisation Développement</h4>
+                                    <p class="my-4 fs-5">Simplon Toulouse</p>
+            
+                                    <div class="row info mb-5">
+                                        <div class="col-4">
+                                            <div class=" info-item info-formation">
+                                                <i class="bi bi-calendar"></i>
+                                                <p>Debut: Octobre 2023</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-fex info-item info-formation">
+                                                <i class="fa-solid fa-hourglass"></i>
+                                                <p>Inférieur à 3 mois</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-fex info-item">
+                                                <i class="bi bi-geo-alt-fill"></i>
+                                                <p>Occitanie</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="limite">
+                                        <p class="info-limite">Date limite de la candidature: </p>
+                                        <p class="date">14/10/2023</p>
+                                    </div>
+
+                                    <div class="button d-fex d-flex justify-content-between ">
+                                        <div class="col-md-6  decouvrir">
+                                            <a href="#" class="btn btn-formation">Decouvrir la session</a>
+                                        </div>
+                                        <div class="col-md-5  pustuler">
+                                            <a href="#" class="btn btn-formation">Postuler</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="my-pagination d-flex justify-content-end">
+                        <div class="pagination pt-3 shadow rounded-4 px-4 text-secondary col-md-3">
+                            <i class="bi bi-chevron-double-left"></i>
+                            <p>
+                                <span>01</span>
+                                <span>02</span>
+                            </p>
+                            <i class="bi bi-chevron-double-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------Fin Section de votre Contenu ------------------>
+        <!---------------- Debut Section Footer ---------------------->
+        <footer>
+            <div class="Footer_Container">
+            <br><br>
+                <!---------------- Debut Section Newsletters ------------->
+                <div class="Section_Footer_Newsletters">
+                    <div class="Section_Footer_Containt">
+                        <div class="Section_Footer_Newsletters_Text">
+                            <h2>Inscrivez-Vous a la NewsLetters</h2>
+                            <p>Inscrivez-vous recevoir toutes les
+                                nouvelles Actualités !</p>
+                        </div>
+                        <div class="Section_Footer_Newsletters_Input">
+                            <input type="text" placeholder="Saisissez Votre e-mail">
+                            <button>S'inscrire</button>
+                        </div>
+                    </div>
+                </div>
+                <!--------------- Fin Section Newsletters --------------->
+                <div class="Section_Footer">
+                    <div class="Section_Footer_logo">
+                        <h3><img src="../public/images/Menu_Footer/logo.png" alt="">&nbsp;Simplon.co</h3>
+                        <p>Simplon Sénégal vous forme aux métiers du numérique, développement web et mobile, digitalisation</p>
+                        <span><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                    <div>
+                        <h3>Liens Utiles</h3>
+                        <p><a href="">Simplon Fondation</a></p>
+                        <p><a href="">Candidater</a></p>
+                        <p><a href="">Ecosystème et partenaires</a></p>
+                    </div>
+                    <div>
+                        <h3>FAQ</h3>
+                        <p><a href="">Qui sommes nous ?</a></p>
+                        <p><a href="">Anti FAQ</a></p>
+                        <p><a href="">Notre pédagogie</a></p>
+                    </div>
+                    <div>
+                        <h3>Autre</h3>
+                        <p><a href="">Contact</a></p>
+                        <p><a href="">Mention légale</a></p>
+                        <p><a href="">Accesssibilité</a></p>
+                    </div>  
+                </div>
+                <br><br>
+                <hr style="width: 80%; margin: auto;">
+                <p class="Copyright">Copyright &nbsp;<i class="fa-solid fa-copyright"></i> &nbsp;2023 Simplon Education.</p>
+                <br>
+            </div>
+        </footer>
+        <!----------------Fin Section Footer ------------------->
+    </div>
+     <!------------------Fin Section Container_Menu --------------------------->
+</body>
+</html>
