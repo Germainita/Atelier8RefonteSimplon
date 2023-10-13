@@ -193,7 +193,7 @@
     background-color: #262626;
     min-height: 550px;
     color: white;
-}
+} 
 
 .Section_Footer{
     display: flex;
@@ -424,7 +424,7 @@
 
 /*------------------- Debut Section Contenu de la Page------------------ */
 .Container_Securite_Banner{
-    background-image: url('../../public/images/Securite/banner_Securite.jpg');
+    background-image: url('https://img.freepik.com/premium-photo/woman-wearing-headphones-headset-looks-robot_843415-278.jpg?w=1060');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

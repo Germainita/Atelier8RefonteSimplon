@@ -424,7 +424,7 @@
 
 /*------------------- Debut Section Contenu de la Page------------------ */
 .Container_Securite_Banner{
-    background-image: url('../../public/images/Securite/banner_Securite.jpg');
+    background-image: url('../../images/formation/fondamentaux_banniere.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -475,7 +475,7 @@
     display: block;
     margin: auto;
 }
-
+ 
 
 /*----------------- Fin Section Contenu de la Page -----------------------------*/
 
