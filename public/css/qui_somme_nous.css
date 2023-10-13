@@ -88,14 +88,7 @@
     background-color: #F6F6F6;
     /* border: 1px solid ; */
 }
-.histoire-img{
-    /* border: 3px solid green; */
 
-}
-.histoire-slider{
-    /* border: 5px solid red ; */
-
-}
 /* Stylisation section engagement */
 .grid-contain-engagement{
     display: grid;
@@ -106,13 +99,15 @@
 .paragraphe-section-soulignement{
     padding: 30px;
     text-align: justify;
-    box-shadow: 5px 5px 5px #f1eded;
+    box-shadow: 5px 5px 25px 1px #cdcdcdac;
+    /* box-shadow: 5px 5px 5px #f1eded; */
     border-radius: 0 0 50px 0;
 }
 .image-section-soulignement{
     margin: 50px 0 50px;
     border-radius: 80px 0 80px 0;
-    box-shadow: 0 0  25px #c4c4c497;
+    /* box-shadow: 0 0  25px #c4c4c497; */
+    box-shadow: 5px 5px 25px 1px #cdcdcdac;
 }
 .image-section-soulignement img {
     border-radius: 80px 0 80px 0;
@@ -120,7 +115,8 @@
 /* stylisation de la section simplon en video */
 .contain-video iframe{
     border-radius: 30px;
-    box-shadow: 5px 5px 25px 1px #8d8b8bac;
+    /* box-shadow: 5px 5px 25px 1px #8d8b8bac; */
+    box-shadow: 5px 5px 25px 1px #cdcdcdac;
     border: none !important;
 }
 
@@ -138,6 +134,12 @@
     color: var(--main-color);
 
 }
+/* #test{
+    height: 35px;
+    width: 35px;
+    border: 1px solid var(--main-color);
+    margin-top: 35px;
+} */
 
 
 /* Media queries */
@@ -163,7 +165,7 @@
         display: grid;
         grid-template-columns: 100%;
         gap: 25px;
-        border: 1px solid;
+        /* border: 1px solid; */
     }
 
     /* Stylisation section engagement */
@@ -190,7 +192,7 @@
             display: grid;
             grid-template-columns: 1fr;
             /* gap: 15px; */
-            border: 7px solid;
+            /* border: 7px solid; */
             /* padding: 15px; */
         }
     
@@ -199,7 +201,7 @@
             display: grid;
             grid-template-columns: 100%;
             gap: 25px;
-            border: 1px solid;
+            /* border: 1px solid; */
         }
     
         /* Stylisation section engagement */

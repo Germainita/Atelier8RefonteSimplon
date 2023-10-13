@@ -16,7 +16,17 @@
     height: 30px;
     width: 30px;
     margin: 0 auto;
-    rotate: -45deg;
+    animation: rotate-center 10s linear infinite both;
+}
+
+@keyframes rotate-center {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 .soulignement{
     width: 30vh;
