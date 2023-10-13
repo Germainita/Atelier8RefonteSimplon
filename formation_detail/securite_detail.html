@@ -240,48 +240,125 @@
                 <img src="../public/images/detail/rncp (2).png" alt="">
               </div>
               <div class="Container_Section_Right">
-                <div class="Container_Section_Menu">
-                  <p class="onglet active">Presentation</p>
-                  <p class="onglet">Compétences Visées</p>
-                  <p class="onglet">Programme</p>
-                  <p class="onglet">Admission</p>
+                <div class="tab">
+                  <button class="tablinks" onclick="openCity(event, 'Presentation')">Presentation </button>
+                  <button class="tablinks" onclick="openCity(event, 'Competence')">Compétences Visées</button>
+                  <button class="tablinks" onclick="openCity(event, 'Programme')">Programme</button>
+                  <button class="tablinks" onclick="openCity(event, 'Admission')">Admission</button>
 
                 </div>
-                <p style="text-align: justify;">Date de dernière mise à jour : 01/03/2023
-                  De l’assistance aux utilisateurs, en passant par la mise en service d'équipements numériques, le technicien ou la technicienne d'assistance en informatique intervient 
-                  Son rôle peut parfois s’étendre à l’intégration et à la gestion d’un réseau (mise en place et maintenance des serveurs ou de l’architecture du réseau).
-                  Il/elle a sous sa responsabilité la maintenance du parc informatique, il/elle surveille de très près l’apparition de virus et, le cas échéant, limite leur propagation.
-                  Le métier de technicien-ne d’assistance en informatique s’articule autour de 3 activités :
-                  <ul>
-                    <li>Mettre en service des équipements numériques</li>
-                    <li> Intervenir sur les éléments de l’infrastructure</li>
-                    <li>Assister ou dépanner les clients ou les utilisateurs</li>
-                  </ul>
-                <div class="Container_Section_Statistiques">
-                  <div class="Statistique1">
-                    <p>Chiffres Clès du Secteur</p><br>
-                    <h4>+3.6%</h4>
+                
+                <div id="Presentation" class="tabcontent active">
+                  <p><p style="text-align: justify;">Date de dernière mise à jour : 01/03/2023
+                    De l’assistance aux utilisateurs, en passant par la mise en service d'équipements numériques, le technicien ou la technicienne d'assistance en informatique intervient 
+                    Son rôle peut parfois s’étendre à l’intégration et à la gestion d’un réseau (mise en place et maintenance des serveurs ou de l’architecture du réseau).
+                    Il/elle a sous sa responsabilité la maintenance du parc informatique, il/elle surveille de très près l’apparition de virus et, le cas échéant, limite leur propagation.
+                    Le métier de technicien-ne d’assistance en informatique s’articule autour de 3 activités :
+                    <ul>
+                      <li>Mettre en service des équipements numériques</li>
+                      <li> Intervenir sur les éléments de l’infrastructure</li>
+                      <li>Assister ou dépanner les clients ou les utilisateurs</li>
+                    </ul></p>
+                    <div class="Container_Section_Statistiques">
+                      <div class="Statistique1">
+                        <p>Chiffres Clès du Secteur</p><br>
+                        <h4>+3.6%</h4>
+    
+                      </div>
+                      <div class="Statistique1">
+                        <p>C’est la croissance du <br> secteur en 2020</p>
+                        <h4>232.000</h4>
+                        <p>C’est le nombre de poste <br> a promouvoir d’ici 2030</p>
+                      </div>
+                      <div class="Statistique1">
+                        <p>Salaire Annuel</p><br>
+                        <h4>32.000</h4>
+                        <p>C’est le salaire <br> annuel Brut par an </p>
+                      </div>
+    
+                    </div>
+                </div>
+                
+                <div id="Competence" class="tabcontent">
+                  <p><span class="rncp1">RNCP31114BC02</span> - Développer la partie back-end d'une application web ou web mobile en intégrant les recommandations de sécurité
+                    <ul>
+                      <li> Créer une base de données</li>
+                      <li> Développer les composants d’accès aux données</li>
+                      <li>Élaborer et mettre en œuvre des composants dans une application de gestion de contenu ou e-commerce</li>
+                      <span class="rncp1">RNCP31114BC01</span> - Développer la partie front-end d'une application web ou web mobile en intégrant les recommandations de sécurité
+                    <li>Maquetter une application</li>
+                    <li>Réaliser une interface utilisateur web</li>
+                    <li>Développer une interface utilisateur web dynamique</li>
+                    <li>Réaliser une interface utilisateur avec une solution de gestion de contenu ou e-commerce</li>
+                    <li>Chiffres Clès du Secteur</li>
+                    <li>C’est la croissance du secteur en 2020</li>
+                    <li> Salaire Annuel</li>
+                    </ul>
+                  </p>
+                </div>
+                
+                <div id="Programme" class="tabcontent">
+                  <p>
+                    <span class="rncp1" style="margin-left: -20px;">Phase d’immersion</span>
+                    <ul>
+                      <li> Les mains dans la tech : mise en place de son environnement de travail, première mise en application de l’algorithmique et de la programmation</li>
+                      <li>Contractualisation du parcours entre le formateur et les apprenants</li>
+                    </ul>
+                    <span class="rncp1">Gestion de projet et qualité</span> 
+                    <ul>
+                      <li>Méthodes agiles et Scrum</li>
+                      <li>Qualité web, accessibilité</li>
+                      <li>Sécurité et RGPD</li>
+                    </ul>
+                    <span class="rncp1">Fondamentaux</span>
+                    <ul>
+                      <li>Conception et maquettage d’une application web</li>
+                      <li> Développement d’une interface web</li>
+                      <li>Développement de la partie back-end</li>
+                    </ul>
+                    <span class="rncp1">Approfondissement</span>
+                    <ul>
+                      <li>Interfaces dynamiques et responsives</li>
+                      <li>Patrons de conception et architecture</li>
+                      <li> Frameworks avancés</li>
+                      <li> L’esprit DevOps</li>
+                    </ul>
+                   </p>
+                </div>
 
-                  </div>
-                  <div class="Statistique1">
-                    <p>C’est la croissance du <br> secteur en 2020</p>
-                    <h4>232.000</h4>
-                    <p>C’est le nombre de poste <br> a promouvoir d’ici 2030</p>
-                  </div>
-                  <div class="Statistique1">
-                    <p>Salaire Annuel</p><br>
-                    <h4>32.000</h4>
-                    <p>C’est le salaire <br> annuel Brut par an </p>
-                  </div>
-
+                <div id="Admission" class="tabcontent">
+                  <p>Très forte motivation, à prouver !
+                    Découvrir le support informatique soi-même (ex. plateformes d'apprentissage en ligne)
+                    Explorer les principaux métiers du numérique, ce qu’ils font, à quoi ils servent
+                    Vouloir travailler en équipe
+                    Ce que nous cherchons ?
+                    De la curiosité, de la créativité, une bonne expression à l’oral et à l’écrit, une représentation claire du métier… et bien sûr, l’envie de s’engager dans une formation intense !
+                    Pour les personnes en situation de handicap
+                    Les formations Simplon sont ouvertes à toutes et tous, inclusives et accueillantes pour les personnes en situation de handicap. Concernant les modalités physiques de la formation,c’est environ 7h par jour de station assise, dans un open space (donc parfois bruyant), avec la nécessité de se déplacer dans la salle et d’éventuellement transporter son ordinateur. Concernant les modalités organisationnelles, il y a possibilité de télétravail ou, en présentiel, d’isolement dans une salle pour se reposer, même s’il y a la nécessité de travailler régulièrement en groupe. 
+                    
+                    La mise en place d’aménagements est possible, n'hésitez pas à prendre contact avec l'équipe de la Fabrique. En fonction des aménagements, ceux-ci se font soit uniquement avec le ou la référente handicap et l’équipe pédagogique soit avec l’appui des Services Public de l’Emploi et les partenaires spécialisés (Agefiph et ressource Handicap Formation). </p>
                 </div>
               </div>
-
-
            </div>
 
            <br><br><br>
        </div>
+
+       <script>
+        function openCity(evt, filtre) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(filtre).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
         <!------------Fin Section de votre Contenu ------------------>
         <!---------------- Debut Section Footer ---------------------->
         <footer>
