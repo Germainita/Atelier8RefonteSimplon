@@ -12,6 +12,30 @@
     --third-color: white;
     --header-color: #262626;
 }
+/* stylisation de la baniere */
+
+.banierre {
+    background-image: url('../images/article/banierre.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: -10vh;
+    color: white;
+    padding: 28vh 0;
+}
+
+.banierre h1 {
+    font-size: 9vh;
+}
+
+/* Stylisation de la derniere section */
+.grid-contain-partenaire {
+    display: grid;
+    /* border: 3px solid; */
+    grid-template-columns: repeat(5, 18%);
+    gap: 28px;
+}
 /* debut stylisation de la premiere section */
 .rotation-square {
     background-color: black;

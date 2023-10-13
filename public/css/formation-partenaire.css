@@ -39,3 +39,23 @@
     background-color: var(--main-color);
     color: var(--third-color);
 }
+
+@media (max-width: 767px){
+    .soulignement {
+        width: 13vh;
+        margin: 0 auto 20px;
+        display: block;
+        background-color: var(--main-color);
+        height: 3px;
+    }
+}
+@media (min-width: 768px) and (max-width:990px){
+    .soulignement {
+        width: 15vh;
+        margin: 0 auto 20px;
+        display: block;
+        background-color: var(--main-color);
+        height: 3px;
+    }
+}
+

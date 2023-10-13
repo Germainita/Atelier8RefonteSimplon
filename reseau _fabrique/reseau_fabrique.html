@@ -4,16 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Notre Reseau de fabrique</title>
     <link rel="stylesheet" href="Menu.css">
     <link rel="stylesheet" href="../public/css/header_footer.css">
     <link rel="stylesheet" href="../public/css/formation-partenaire.css">
     <link rel="stylesheet" href="../public/css/reseau_fabrique.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Link de la carte -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="Menu.js"></script>
+
 </head>
 
 <body>
@@ -26,11 +31,11 @@
                 <li class="dropdown">A-propos&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
                     <!-----------Début Section DropdownMenu qui se deplie------->
                     <div class="dropdown-content">
-                        <a href="#">Qui Somme Nous ?</a>
-                        <a href="#">Notre Pedagogie</a>
-                        <a href="#">Notre Reseaux de Fabrique</a>
-                        <a href="#">Un Numérique Inclusif</a>
-                        <a href="#">Anti-FAQ</a>
+                        <a href="../qui_somme_nous/qui_somme_nous.html">Qui Somme Nous ?</a>
+                        <a href="../pedagogie_simplon/pedagogie.html">Notre Pedagogie</a>
+                        <a href="reseau_fabrique.html">Notre Reseaux de Fabrique</a>
+                        <a href="../numerique_inclusif/numerique_inclusif.html">Un Numérique Inclusif</a>
+                        <a href="../anti_faq/antifaq.html">Anti-FAQ</a>
                     </div>
                     <!-----------Fin Section DropdownMenu qui se deplie ------------->
                 </li>
@@ -312,7 +317,42 @@
             </div>
             <!-- Debut section carte -->
             <section>
-
+                <div class="grid-contain-carte mt-5">
+                    <div class="section-carte">
+                        <div id="map"></div>
+                    </div>
+                    <div class="section-recherche py-4 px-4">
+                        <h6>Rechercher une fabrique</h6>
+                        <select class="form-select" aria-label="Default select example" id="pays" onchange="changeMap()">
+                            <option selected>Region/pays</option>
+                            <option value="31.1728205,-7.3362482,6,Maroc">Maroc</option>
+                            <option value="16.3700359,-2.2900239,6,Mali">Mali</option>
+                            <option value="46.603354,1.8883335,6,France">France</option>
+                            <option value="14.8403719, -15.8865657,6,Senegal">Senegal</option>
+                            <option value="33.8439408,9.400138,6,Tunisie">Tunisie</option>
+                        </select>
+                        <div class="resultat-recherche mt-3 bg-white py-4 px-4">
+                            <div class="card w-100" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Simplon AUF Dakar - Agence universitaire de la Francophonie</h6>
+                                    <p class="card-text"><i class="bi bi-geo-alt-fill" style="color:#CE0033"></i> Dakar, 2084 Dakar, Sénégal</p>
+                                </div>
+                            </div>
+                            <div class="card w-100 mt-3" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sonatel Academy</h6>
+                                        <p class="card-text"><i class="bi bi-geo-alt-fill" style="color:#CE0033"></i> Sénégal, Dakar, Sénégal</p>
+                                </div>
+                            </div>
+                            <div class="card w-100 mt-3" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Simplon Maroc</h6>
+                                        <p class="card-text"><i class="bi bi-geo-alt-fill" style="color:#CE0033"></i> Youssoufia, Youssoufia, Maroc</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- debut section simplon au national -->
             <section style="background-color: #F3F3F3;" class="py-1 ">
@@ -352,7 +392,7 @@
                     </div>
                 </div>
             </section>
-            <!-- DEbut section fabrique -->
+            <!-- Debut section fabrique -->
             <section class="mt-5 mb-5 ">
                 <h3 class="text-center">Vous souhaitez ouvrir une Fabrique ?</h3>
                 <div class="grid-contain-fabrique">
@@ -402,13 +442,13 @@
                         <h3>Liens Utiles</h3>
                         <p><a href="">Simplon Fondation</a></p>
                         <p><a href="">Candidater</a></p>
-                        <p><a href="">Ecosystème et partenaires</a></p>
+                        <p><a href="../ecosystem_partenaire/ecosystem_patenaire.html">Ecosystème et partenaires</a></p>
                     </div>
                     <div>
                         <h3>FAQ</h3>
-                        <p><a href="">Qui sommes nous ?</a></p>
-                        <p><a href="">Anti FAQ</a></p>
-                        <p><a href="">Notre pédagogie</a></p>
+                        <p><a href="../qui_somme_nous/qui_somme_nous.html">Qui sommes nous ?</a></p>
+                        <p><a href="../anti_faq/antifaq.html">Anti FAQ</a></p>
+                        <p><a href="../pedagogie_simplon/pedagogie.html">Notre pédagogie</a></p>
                     </div>
                     <div>
                         <h3>Autre</h3>
@@ -427,6 +467,49 @@
         <!----------------Fin Section Footer ------------------->
     </div>
     <!------------------Fin Section Container_Menu --------------------------->
+    <script>
+        //creation de la carte  
+        var map = L.map('map').setView([0, 0], 1);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        // Groupe de calques pour les marqueurs
+        var markers = L.layerGroup().addTo(map);
+
+        // marker
+        var markersData = {
+            "Maroc": [[31.1728205, -7.3362482, "Maroc "]],
+            "Mali": [[16.3700359, -2.2900239, "Mali"]],
+            "France": [[46.603354, 1.8883335, "France"],[48.8618309, 2.4359251,"Simplon Montreuil"],[48.956987, 2.3431,"Simplon Villetaneuse"],[48.891008, 2.2412078,"La défense"]],
+            "Senegal": [[14.8403719, -15.8865657, "Sonatel Academy"],[14.679451, - 17.4675212, "Simplon AUF Dakar"]],
+            "Tunisie": [[36.8002068, 10.1857757, "Tunisie"]],        
+        };
+
+        // Fonction pour changer la carte et afficher les marqueurs
+        function changeMap() {
+            var selectedOption = document.getElementById('pays').value;
+            var [lat, lon, zoom, name] = selectedOption.split(',');
+
+            // Définir la vue de la carte en fonction de la région sélectionnée
+            map.setView([lat, lon], zoom);
+            markers.clearLayers();
+
+            if (markersData[name]) {
+                // Ajouter les marqueurs correspondants à la carte
+                markersData[name].forEach(function (markerInfo) {
+                    var [markerLat, markerLon, markerName] = markerInfo;
+                    L.marker([markerLat, markerLon]).addTo(markers).bindPopup(markerName).openPopup();
+                });
+            }
+        }
+
+        // Chargement initial de la carte
+        changeMap();
+
+        
+    </script>
 </body>
 
 </html>
