@@ -1,0 +1,116 @@
+ * {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+ }
+
+ /* Declaration des variable pour les couleurs */
+ :root {
+     --main-color: #CE0033;
+     --second-color: #F3F3F3;
+     --third-color: white;
+ }
+ /* stylisation de la baniere  */
+.banierre {
+    background-image: url('../images/engagement/Capture\ d’écran\ 2023-10-12\ 122625.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: -10vh;
+    color: white;
+    padding: 28vh 0;
+}
+
+.banierre h1 {
+    font-size: 9vh;
+}
+/* Stylisation de la section realisation */
+.grid-contain-realisation{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 25px;
+}
+.paragraphe-right ,.paragraphe-left{
+    padding: 10px;
+    /* box-shadow: 7px 8px 10px -1px #bfbdbf; */
+    box-shadow: 5px 5px 25px 1px #cdcdcdac;
+}
+
+/* stylisation de la section impact */
+#contain-impact {
+    background-image: url("../images/engagement/impact.jpg");
+    background-size: 100%;
+    height: 250px;
+    background-position: center;
+}
+
+.banner-container {
+    background-color: #ce00345b;
+    height: 250px;
+    padding: 50px;
+}
+
+.contain-chiffre-impact {
+    display: flex;
+    /* border: 4px solid green; */
+    width: 90%;
+    margin: auto;
+}
+
+.chiffre-impact {
+    border-right: 2px solid var(--third-color);
+    width: 30%;
+    padding: 0 20px 0 20px;
+    margin-left: 35px;
+}
+
+#chiffre-except {
+    border: none !important;
+}
+/* Stylisation de la derniere section */
+.grid-contain-partenaire{
+    display: grid;
+    /* border: 3px solid; */
+    grid-template-columns: repeat(5,18%);
+    gap: 28px;
+}
+.partenaires{
+    /* border: 3px solid red; */
+    padding: 10px;
+    height: 100px;
+    box-shadow: 5px 5px 25px 1px #cdcdcdac;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+@media (max-width: 767px) {
+    .banierre h1 {
+        font-size: 3vh;
+    }
+
+    .banierre p {
+        font-size: 1.5vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .banierre h1 {
+        font-size: 3vh;
+    }
+
+    .banierre p {
+        font-size: 1.5vh;
+    }
+
+}
