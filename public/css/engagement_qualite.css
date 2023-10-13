@@ -85,14 +85,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /* Media queries */
 @media (max-width: 767px) {
     .banierre h1 {
@@ -101,6 +93,49 @@
 
     .banierre p {
         font-size: 1.5vh;
+    }
+    .grid-contain-partenaire {
+        display: grid;
+        /* border: 3px solid; */
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+    }
+    /* Stylisation de la section realisation */
+    .grid-contain-realisation {
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 25px;
+    }
+
+    /* stylisation de la section impact */
+    #contain-impact {
+        background-image: url("../images/engagement/impact.jpg");
+        background-size: 100%;
+        height: 250px;
+        background-position: center;
+    }
+
+    .banner-container {
+        background-color: #ce00345b;
+        height: 250px;
+        padding: 50px;
+    }
+
+    .contain-chiffre-impact {
+        display: flex;
+        /* border: 4px solid green; */
+        width: 90%;
+        margin: auto;
+    }
+
+    .chiffre-impact {
+        border-right: 2px solid var(--third-color);
+        width: 30%;
+        padding: 0 20px 0 20px;
+        margin-left: 35px;
+    }
+    #text{
+        font-size: 100px;
     }
 }
 
@@ -111,6 +146,11 @@
 
     .banierre p {
         font-size: 1.5vh;
+    }
+    .grid-contain-realisation {
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 25px;
     }
 
 }
