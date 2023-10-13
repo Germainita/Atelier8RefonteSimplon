@@ -424,7 +424,7 @@
 
 /*------------------- Debut Section Contenu de la Page------------------ */
 .Container_Securite_Banner{
-    background-image: url('../../public/images/Securite/banner_Securite.jpg');
+    background-image: url('https://img.freepik.com/free-photo/person-working-html-computer_23-2150038846.jpg?w=996&t=st=1697190910~exp=1697191510~hmac=5380a741f5e554d584da7ba776bdd7ea0994e3b1218acbd015a52d8f110c2860');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -454,17 +454,20 @@
 .Container_Securite_Card h3{
    padding-top: 2em;
    display: flex;
- justify-content: center;
+ justify-content: start;
+   margin-left: 40px;
    /* margin-left: 160px; */
    margin-bottom: 25px;
 }
 
 .Card_Section_Securite{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    margin-left: 40px;
+    margin-right: 25px;
 }
 
 .Card_Section_Securite button{
