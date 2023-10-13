@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* Declaration des variable pour les couleurs */
+:root{
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color:white;
+}
+
+.bouton{
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+}
+
+.bouton:hover{
+    background-color: var(--third-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}

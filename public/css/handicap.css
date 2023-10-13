@@ -10,16 +10,6 @@
     box-sizing: border-box;
 }
 
-.contenu-handicap .title{
-    border: 3px solid magenta!important;
-}
-.contenu-handicap .title h1{
-    /* font-size: 8vh!important; */
-}
-
-.contenu-handicap .title p{
-    /* font-size: 3vh; */
-}
 
 .link{
     position: relative;
