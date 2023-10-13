@@ -84,6 +84,8 @@
     display: grid;
     grid-template-columns: 32% 65% ;
     gap: 25px;
+    box-shadow: 5px 5px 25px 1px #cdcdcdac;
+    background-color: #F6F6F6;
     /* border: 1px solid ; */
 }
 .histoire-img{
@@ -121,6 +123,22 @@
     box-shadow: 5px 5px 25px 1px #8d8b8bac;
     border: none !important;
 }
+
+#icon-left{
+    position: absolute;
+    top: 65vh;
+    left: 10vh;
+}
+#icon-right{
+    position: absolute;
+    top: 65vh;
+    left: 20vh;
+}
+#icon-right i{
+    color: var(--main-color);
+
+}
+
 
 /* Media queries */
 @media (max-width: 767px){
