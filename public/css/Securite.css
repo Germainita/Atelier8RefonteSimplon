@@ -321,7 +321,7 @@
     display: block;
     /* top: 0; */
     right: 0;
-    position: absolute;
+    position: fixed;
     transition: 1s;
     /* height: 100%; */
     min-height: 100%;
@@ -339,6 +339,7 @@
     .Container_Securite_Card h3{
         padding-top: 2em;
         text-align: center;
+        /* padding-left: 5rem; */
     }
 }
 
@@ -430,10 +431,30 @@
     min-height: 500px;
 }
 
+
+.Container_h h4{
+    color: white;
+    position: relative;
+    top: -100px;
+    text-align: left;
+}
+
+.Container_h h3{
+    color: white;
+    position:relative;
+    top: -132px;
+    margin-right: 30px;
+    background-color: #CE0033;
+    float: right;
+    width: 400px;
+    padding: 0.2em;
+    opacity: 0.8;
+}
+
 .Container_Securite_Card h3{
    padding-top: 2em;
    display: flex;
-   justify-content: center;
+ justify-content: center;
    /* margin-left: 160px; */
    margin-bottom: 25px;
 }
@@ -446,7 +467,7 @@
     gap: 40px;
 }
 
-.Container_Securite_Card .Card_Section_Securite button{
+.Card_Section_Securite button{
     width: 14rem;
     padding: 0.5em;
     background-color: #CE0033;
