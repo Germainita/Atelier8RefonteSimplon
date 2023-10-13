@@ -428,7 +428,13 @@
     min-height: 500px;
 }
 
-
+.Container_action_Contact h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 170px;
+    font-weight: bold;
+}
 
 .Container_Contact_Section{
     display: grid;
@@ -480,13 +486,14 @@
 
 .Contact_Section_Right button{
     background-color: #CE0033;
-    width: 200px;
+    width: 300px;
     color: white;
     padding: 0.8em;
     display: block;
     margin: auto;
     border: none;
     margin-top: 40px;
+    border-radius: 10px;
 }
 
 .Contact_Section_Right p{

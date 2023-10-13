@@ -422,6 +422,14 @@
     min-height: 500px;
 }
 
+
+.Container_h h4{
+    color: white;
+    position: relative;
+    top: -100px;
+    text-align: left;
+}
+
 .Card_Section_Securite{
     display: flex;
     justify-content: center;
@@ -487,6 +495,12 @@
     display: block;
     margin: auto;
     padding-top: 4em;
+}
+
+.Container_Partenaire marquee img{
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
 }
 
 .Container_action_Partenaire marquee img{
