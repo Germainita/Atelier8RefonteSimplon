@@ -465,6 +465,8 @@
     margin-left: 20px;
 }
 
+
+
 .Container_Section_Menu{
     display: flex;
     justify-content: center;
@@ -552,6 +554,10 @@
   color: #CE0033;
 }
 
+
+#Presentation{
+    display: block;
+}
 
 .tabcontent {
   display: none;
