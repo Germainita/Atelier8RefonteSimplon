@@ -29,9 +29,13 @@
     margin-top: -5vh!important;
     margin-bottom: 5vh;
 }
-.handicap .card{
+.digital-numerique .card{
     border-radius: 2vh;
-    height: 75vh;
+    height: auto;
+}
+
+.handicap .action-engage .card{
+    height: 95vh;
 }
 
 .handicap img{
@@ -86,7 +90,7 @@
 }
 
 @media screen and (max-width:1000px) {
-    .handicap .card{
+    .handicap .action-engage .card{
         height: 70vh;
     }
     .partenaire .grid-image{
@@ -95,7 +99,7 @@
     }
 }
 @media screen and (max-width:600px) {
-    .handicap .card{
+    .handicap .action-engage .card{
         border-radius: 2vh;
         height: 50vh;
     }
