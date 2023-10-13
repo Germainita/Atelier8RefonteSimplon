@@ -11,6 +11,12 @@
     --third-color:white;
 }
 
+.article .presse{
+    border-top-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    border: none;
+}
+
 .bouton{
     background-color: var(--main-color);
     color: white;
