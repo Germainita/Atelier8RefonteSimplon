@@ -28,3 +28,18 @@
     color: var(--main-color);
     border: 1px solid var(--main-color);
 }
+
+
+
+audio::-webkit-media-controls-panel {
+    background-color: #f6f6f6;
+    /* border: 1px solid var(--main-color); */
+  }
+  
+
+
+  audio::-webkit-media-controls-play-button {
+    background-color: var(--main-color);
+    border-radius: 50%;
+    color: wheat;
+  }
