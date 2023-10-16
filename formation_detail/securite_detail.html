@@ -251,14 +251,13 @@
               </div>
               <div class="Container_Section_Right">
                 <div class="tab">
-                  <button class="tablinks" onclick="openCity(event, 'Presentation')">Presentation </button>
-                  <button class="tablinks" onclick="openCity(event, 'Competence')">Compétences Visées</button>
-                  <button class="tablinks" onclick="openCity(event, 'Programme')">Programme</button>
-                  <button class="tablinks" onclick="openCity(event, 'Admission')">Admission</button>
-
+                  <button class="tablinks" onclick="filtreElement(event, 'Presentation')">Presentation </button>
+                  <button class="tablinks" onclick="filtreElement(event, 'Competence')">Compétences Visées</button>
+                  <button class="tablinks" onclick="filtreElement(event, 'Programme')">Programme</button>
+                  <button class="tablinks" onclick="filtreElement(event, 'Admission')">Admission</button>
                 </div>
                 
-                <div id="Presentation" class="tabcontent active">
+                <div id="Presentation" class="tabcontent tab1">
                   <p><p style="text-align: justify;">Date de dernière mise à jour : 01/03/2023
                     De l’assistance aux utilisateurs, en passant par la mise en service d'équipements numériques, le technicien ou la technicienne d'assistance en informatique intervient 
                     Son rôle peut parfois s’étendre à l’intégration et à la gestion d’un réseau (mise en place et maintenance des serveurs ou de l’architecture du réseau).
@@ -355,7 +354,7 @@
        </div>
 
        <script>
-        function openCity(evt, filtre) {
+        function filtreElement(evt, filtre) {
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");
           for (i = 0; i < tabcontent.length; i++) {
@@ -364,13 +363,16 @@
           tablinks = document.getElementsByClassName("tablinks");
           for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
+            
           }
+          // console.log(tablinks)
           document.getElementById(filtre).style.display = "block";
           evt.currentTarget.className += " active";
         }
+        
         </script>
         <!------------Fin Section de votre Contenu ------------------>
-        <!---------------- Debut Section Footer ---------------------->
+        <!---------------- Debut Section Footer --------------------->
         <footer>
           <div class="Footer_Container">
           <br><br>

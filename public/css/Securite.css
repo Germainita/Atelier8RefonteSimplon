@@ -364,10 +364,10 @@
     }
 
     
-    /* .Container_Securite_Card h3{
+    .Container_Securite_Card h3{
         
         text-align: center;
-    } */
+    }
 
    
 
@@ -453,10 +453,11 @@
 
 .Container_Securite_Card h3{
    padding-top: 2em;
-   display: flex;
- justify-content: center;
-   /* margin-left: 160px; */
-   margin-bottom: 25px;
+   display: block;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 20px;
+
 }
 
 .Card_Section_Securite{
