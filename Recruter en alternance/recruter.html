@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Menu.js">
+    <link rel="stylesheet" href="header_footer.css">
+    <link rel="stylesheet" href="recruter .css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <script src="Menu.js"></script>
+</head>
+<body>
+    <div class="Container_Menu">
+        <!------------------Debut Section Prémier Menu------------------------->
+        <div class="FirstMenu">
+            <ul>
+                <li><a href="Menu.html"><img src="../public/images/Menu_Footer/logo.png" alt="">Simplon.co</a></li>
+                <li class="dropdown">A-propos&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                    <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="#">Qui Somme Nous ?</a>
+                        <a href="#">Notre Pedagogie</a>
+                        <a href="#">Notre Reseaux de Fabrique</a>
+                        <a href="#">Un Numérique Inclusif</a>
+                        <a href="#">Anti-FAQ</a>
+                    </div>
+                    <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li class="dropdown">Entreprise&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                    <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="#">Former ces Salariés ?</a>
+                        <a href="#">Collecte de la tva 2023</a>
+                    </div>
+                     <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li class="dropdown">Alternance&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                     <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="#">Faire ma formation en alternance</a>
+                        <a href="#">Recruter en Alternance</a>
+                    </div>
+                     <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li>Devenir Formateur</li>
+                <li class="Social_Media"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i></li>
+                <!-- <span><i class="fa-solid fa-bars iconeBarLeft"id="cach1" style="font-size: 30px;" ></i></span> -->
+                <i class="fa-solid fa-bars iconeBarRight" id="cach" style="font-size: 30px;" onclick="afficher()"></i>
+               
+            </ul>
+        </div>
+        <!------------------------ Fin Section Prémier Menu --------------------->
+        <!------------------------Début Section Sidebar Bar Accordion --------------------->
+        <div id="MenuSec" >
+            <br><br>
+            <div class="accordion accordion-flush" id="">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Formation
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Infrastructure & Cybersécurité</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Développement d'Application</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Fondamentaux Numérique</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Gestion de projet Agile</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Cloud & DevOps</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Data & Intelligence Artificielle</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Métavers & XR</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Blockchain</li></a>
+                           </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Candidats
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Candidater</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Valider ses acquis par la VAE</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les femmes</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Candidater</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Personne en situation de handicap</li></a>
+                            <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les refugiés et les ressortissants non européens</li></a>
+                            <li>Presse</li>
+                           </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Blog
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                       <ul>
+                          <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Article</li></a>
+                          <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Presse</li></a>
+                       </ul>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwoTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoTwo" aria-expanded="false" aria-controls="flush-collapseTwoTwo">
+                        A-Propos
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwoTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Qui Somme Nous ?</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Pedagogie</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Reseaux de Fabrique</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Un Numérique Inclusif</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Anti-FAQ</li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEntreprise">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEntreprise" aria-expanded="false" aria-controls="flush-collapseEntreprise">
+                        Entreprise
+                      </button>
+                    </h2>
+                    <div id="flush-collapseEntreprise" class="accordion-collapse collapse" aria-labelledby="flush-headingEntreprise" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Former ses Salariés ?</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Collecte de la Tva 2023</li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingAlternance">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAlternance" aria-expanded="false" aria-controls="flush-collapseAlternance">
+                        Alternance
+                      </button>
+                    </h2>
+                    <div id="flush-collapseAlternance" class="accordion-collapse collapse" aria-labelledby="flush-headingAlternance" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Faire ma formation en Alternance</li></a>
+                              <a href="" style="text-decoration: none; color: black; cursor: pointer;"><li>Recruter en Alternance/li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+    
+              </div>
+            <ul>
+                <li><span onclick="cacher()" id="X_Bar"><i class="fa-solid fa-x"></i></span></li>
+            </ul>
+        </div>
+        <!-------------------------Fin Section Sidebar Bar Accordion ----------------------->
+        <!-------------------------- Début Section SecondMenu ---------------------------->
+        <div class="SecondMenu">
+            <div class="SecondMenu_Image">
+                <img src="../public/images/Menu_Footer/simplon (1).png" alt="">
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/formation-removebg-preview.png" alt="">
+                <div>
+                    <h6>Formation&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Decouvrir nos Formation</span>
+                </div>
+                <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="#">Infrastrurcute & Cybersécurité</a>
+                    <a href="#">Développement d'application</a>
+                    <a href="#">Fondamentaux numérique</a>
+                    <a href="#">Gestion de projet agile</a>
+                    <a href="#">Cloud & Devops</a>
+                    <a href="#">Data & Intelligence Artificielle</a>
+                    <a href="#">Métavers & XR</a>
+                    <a href="#">Blockchain</a>
+                </div>
+                <!-----------------Fin Sous Menu----------------->
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/candidat-removebg-preview.png" alt="" style="max-width: 60px; height: 50px;">
+                <div>
+                    <h6>Candidats&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Lire nos derniers Articles</span>
+                </div>
+                 <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="#">Candidater</a>
+                    <a href="#">Valider ses acquis par la VAE</a>
+                    <a href="#">Nos actions pour les femmes</a>
+                    <a href="#">Personnes en situation de handicap</a>
+                    <a href="#">Nos actions pour les refugiés et ressortissants non européens</a>
+                </div>
+                 <!-----------------Fin Sous Menu----------------->
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/blog-removebg-preview.png" alt="">
+                <div>
+                    <h6>Blog&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Lire nos derniers Articles</span>
+                </div>
+                 <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="#">Article</a>
+                    <a href="#">Presse</a>
+                </div>
+                 <!-----------------Fin Sous Menu----------------->
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+          <img src="./image/banierre.PNG" class="card-img" id="img"/>
+          <div class="solution card-img-overlay text-center ">
+            <h5 class="card-title mt-5">Vous recherchez des talents du numérique ?</h5>
+            <p class="card-text mt-5">Depuis plus de 10 ans, Simplon forme les talents de demain aux métiers tech. Découvrez l'alternance <br> avec Simplon et recrutez le profil idéal dont vous avez besoin. <br> Nous avons les profils techniques et qualifiés dont vous avez besoin.
+            </p>
+          </div>
+        </div>
+     <div class="row d-flex">
+      <div class="col  mt-5">
+        <div class="card mb-3 mb-2 bg-secondary-subtle text-dark" style="width: 30rem; height: 30rem;">
+          <div class="card-body">
+            <h5 class="card-title ">L'alternance avec Simplon,votre solution de recrutement</h5>
+            <p class="card-text text-center">Précurseur dans la formation des talents du numérique, Simplon est un organisme spécialisé dans les métiers d’avenir, du développement web à la cybersécurité en passant par l’Intelligence Artificielle.Nos équipes vous accompagnent tout au long de votre projet de recrutement afin de trouver le profil idéal qui répond à vos besoins.
+
+              En recrutant nos apprenants, vous allez :
+              Accueillir un profil opérationnel, formé aux dernières technologies
+              Intégrer un talent motivé, agile, avec un vrai potentiel
+              Améliorer les performances de votre entreprise tout en bénéficiant d’un coût salarial avantageux
+              Rejoindre un écosystème de plus de 1500 partenaires engagés dans l’économie sociale et solidaire</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body shadow p-3">
+          <h5 class="card-title">Nos parcours de formation</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary"><i class="fa-solid fa-graduation-cap text-start me-3" style="color: #ec3300;"></i>Formations diplômantes</h6>
+          <p class="card-text"><i class="fa-solid fa-location-dot text-start ms-4" style="color: #ec3300;"></i> &ensp;Durée : 12 à 24 mois selon la formation</p>
+          <p class="card-text"><i class="fa-solid fa-user text-start me-4" style="color: #ec3300;"></i> &ensp;Type de contrat : apprentissage, professionnalisation, CDD ou CDInl</p>
+         
+        </div>
+      </div>
+     </div>
+     <div class="card text shadow p-3 mb-5" style="max-width: 23rem; height: 20rem;  ">
+      <div class="card-body">
+        <h6 class="card-title">Modalités de nos formations</h6>
+        <p class="card-text"> <i class="fa-solid fa-graduation-cap text-start me-3" style="color: #ec3300;"></i>&ensp;&ensp;Formations diplômantes et certifiantes</p>
+        <p class="card-text"> <i class="fa-regular fa-hourglass text-start me-3" style="color: #ec0033;"></i>&ensp;&ensp;Durée : 12 à 24 mois selon la formation</p>
+        <p class="card-text"> <i class="fa-solid fa-location-dot text-start ms-4" style="color: #ec3300;"></i>&ensp;&ensp;Localisation : Cours en présentiel (50 villes en France) ou 100% distanciel
+        </p>
+        <p class="card-text"> <i class="fa-solid fa-user text-start me-4" style="color: #ec3300;"></i>&ensp;&ensp;Admission sur entretien</p>
+       </div>
+    </div>
+  </div>
+  
+  <section>
+    <div  id="contain-impact">  
+        <div class="banner-container mt-5">
+            <div class="contain-chiffre-impact">
+                <div class="chiffre-impact">
+                    <h1 class="text-danger text-center mt-2">25000 <i class="bi bi-plus"></i></h1>
+                    <p class="text-dark text-center">apprenants formés depuis 2013</p>
+                </div>
+                <div class="chiffre-impact">
+                    <h1 class="text-danger text-center mt-2">30</h1>
+                    <p class="text-dark text-center">formations en alternance</p>
+                </div>
+                <div class="chiffre-impact" id="chiffre-except">
+                    <h1 class="text-danger text-center mt-2">123</h1>
+                    <p class="text-dark text-center">écoles en France et à l'internationar</p>
+                </div>
+                <div class="chiffre-impact" id="chiffre-except">
+                  <h1 class="text-danger text-center mt-2">69 %</h1>
+                  <p class="text-dark text-center">sorties positives</p>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <div class="container">
+    <div class="row">
+      <div class="rotation-square"></div>
+       <div class="d-flex justify-content-center">
+         <h4>Nos Formations Aux Métiers</h4>
+      </div>
+      <div class="fall d-flex text-center">
+        <h6>Toutes Les Formations Ouvertes</h6>
+        <h6>Cloud</h6>
+        <h6>Développement d’Application</h6>
+        <h6>Infrastructures Cybersécurité</h6>
+        <h6>IA</h6>
+      </div>
+       <span class="soulignement"></span>
+       <div class="card shadow p-3 mb-5" style="width: 23rem;">
+           <img src="https://campagne.simplon.co/hubfs/Photos%20Free%20apprenants/11.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h6 class="card-title">Administrateur-trice d’infrastructures sécurisées DevOps</h6>
+             <p class="card-text">L'administrateur d'infrastructures sécurisées s’occupe des infrastructures informatiques dont il assure l'installation, la sécurisation...</p>
+             <p><img src="./image/Capture d’écran 2023-10-11 165843.png" alt="">Rentrées tout au long de l'année</p>
+             <p><i class="fa-solid fa-user" style="color: #ec3300;"></i>Distanciel & Présentiel| <i class="fa-regular fa-clock" style="color: #ec0033;"></i>12-24 mois</p>
+           </div>
+         </div>
+         <div class="card shadow p-3 mb-5" style="width: 23rem;">
+           <img src="https://campagne.simplon.co/hubfs/Photos%20Free%20apprenants/11.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h6 class="card-title">Concepteur-rice Développeur-se en environnement DevOps</h6>
+             <p class="card-text">Le Concepteur Développeur d'Applications est un professionnel qui analyse les besoins d'un client, les traduit en exigences fonctionnelles et...?</p>
+             <p><img src="./image/Capture d’écran 2023-10-11 165843.png" alt="">Rentrées tout au long de l'année</p>
+             <p><i class="fa-solid fa-user" style="color: #ec3300;"></i>Distanciel & Présentiel| <i class="fa-regular fa-clock" style="color: #ec0033;"></i>12-24 mois</p>
+           </div>
+         </div>
+        
+    </div>   
+    <div class="row p-5">
+       <div class="card shadow p-3 mb-5" style="width: 23rem;">
+           <img src="https://campagne.simplon.co/hubfs/Photos%20Free%20apprenants/9.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h6 class="card-title">Technicien-ne supérieur-e systèmes et réseaux
+            </h6>
+             <p class="card-text">Le technicien supérieur systèmes et réseaux participe à la mise en service et au maintien en condition opérationnelle de l’infrastructure informatique.</p>
+             <p><img src="./image/Capture d’écran 2023-10-11 165843.png" alt="">Rentrées tout au long de l'année</p>
+             <p><i class="fa-solid fa-user" style="color: #ec3300;"></i>Distanciel & Présentiel| <i class="fa-regular fa-clock" style="color: #ec0033;"></i>12-24 mois</p>
+           </div>
+         </div>
+         <div class="card shadow p-3 mb-5" style="width: 23rem;">
+           <img src="https://campagne.simplon.co/hubfs/Photos%20Free%20apprenants/2.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h6 class="card-title">Administrateur-trice d’infrastructures sécurisées DevOps</h6>
+             <p class="card-text">Le métier de développeur en IA prend une importance croissante dans les nouveaux métiers de la data et l’IA puisqu'il..</p>
+             <p><img src="./image/Capture d’écran 2023-10-11 165843.png" alt="">Rentrées tout au long de l'année</p>
+             <p><i class="fa-solid fa-user" style="color: #ec3300;"></i>Distanciel & Présentiel| <i class="fa-regular fa-clock" style="color: #ec0033;"></i>12-24 mois</p>
+           </div>
+         </div>
+        
+         <div class="text-center">
+           <a href="#" class="btn border-danger -pill " style="width: 250px;">JE POSTULE</a>
+         </div>
+    
+        
+    </div> 
+    <div class="row  bg-secondary-subtle w-100" style="height: 300px;">
+      <div><h5 class="text-center mt-5">Comment s'inscrire à nos formations en alternance ?</h5></div>
+      <div class="col-sm-6 mb-3 mb-sm-0 "style="width: 30rem;">
+        <div class="card shadow p-3" style="height: 173px;">
+          <div class="card-body">
+            <h6 class="card-title ">1.Identificationdes compétences
+              Notre équipe vous aide à identifier les compétences dont vous avez besoin.
+            <h6 class="card-text">2.Sélectionde profils qualifiés
+              Nous pré-sélectionnons des profils motivés et à fort potentiel.</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mb-3 mb-sm-0" style="width: 30rem;">
+        <div class="card shadow p-3" style="height: 173px;">
+          <div class="card-body">
+            <h6 class="card-title">3.Matchingdes candidats
+              Vous sélectionnez les profils qui matchent avec vos besoins.</h6>
+            <h6 class="card-text">4.Intégration du talentau sein de l'entreprise
+              Vous intégrez l'apprenant en alternance, en CDDou en CDI.</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row d-grid"> -->
+      <div class="fille">
+        <div class="row">
+          <div class="row mt-5" style="width: 80rem; ">
+            <div class="col-md-4 me-5 ">
+              <img src="https://demo.bosathemes.com/html/educator/assets/img/educator-img33.png" id="jaune">
+              <div class="fatima  mb-3 mb-sm-0 me-3 ">
+                <div class="card bg-danger">
+                  <div class="card-body text-white">
+                    <h5 class="card-title">Vous avez une question ?</h5>
+                    <p class="card-text">En plus d'un diplôme, la formation en alternance <br> va booster votre carrière professionnelle  tout en développant de nouvelles compétences recherchées par les entreprises.Nous contactez</p>
+                   
+                  </div>
+               </div>
+              </div>
+            </div>
+            
+        </div>
+       </div> 
+      </div>
+       <div class="faq">
+        <div class="accordion accordion-flush" id="accordionFlushExample" style="width: 40rem;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+              Quelles sont les conditions d'admission ?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-mdb-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+              Simplon va t-il m'aider à trouver une alternance ?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-mdb-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+              Les formations sont-elles en présentiel ou distanciel ?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-mdb-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+              Les formations sont-elles en présentiel ou distanciel ?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-mdb-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+        </div>
+       </div>
+       
+       <!-- <div class="row mt-5">
+        <div class="row mt-5" style="width: 75rem; ">
+          <div class="col-md-4 me-5 ">
+            <img src="https://campagne.simplon.co/hs-fs/hubfs/T%C3%A9moignage-vid%C3%A9o.jpeg?width=700&height=394&name=T%C3%A9moignage-vid%C3%A9o.jpeg" id="texte">
+            <div class="fatima  mb-3 mb-sm-0 me-3 ">
+              <div class="card bg-danger">
+                <div class="card-body ">
+                  <h5 class="card-title">Vous avez une question ?</h5>
+                  <p class="card-text">En plus d'un diplôme, la formation en alternance <br> va booster votre carrière professionnelle  tout en développant de nouvelles compétences recherchées par les entreprises.Nous contactez</p>
+                 
+                </div>
+             </div>
+            </div>
+          </div>
+          
+      </div>  
+    </div> -->
+    </div>
+  </div> 
+  <div class="play d-flex justify-content-center" style="width: 5rem; height: 10%;">
+    <img src="https://campagne.simplon.co/hs-fs/hubfs/1-Dec-12-2022-01-37-10-0510-PM.png?width=912&height=203&name=1-Dec-12-2022-01-37-10-0510-PM.png" class="card-img-top" alt="...">
+    <img src="https://campagne.simplon.co/hs-fs/hubfs/2-Dec-12-2022-01-37-36-7233-PM.png?width=861&height=288&name=2-Dec-12-2022-01-37-36-7233-PM.png" class="card-img-top" alt="...">
+    <img src="https://campagne.simplon.co/hs-fs/hubfs/3-Dec-12-2022-01-37-58-5310-PM.png?width=846&height=196&name=3-Dec-12-2022-01-37-58-5310-PM.png" class="card-img-top" alt="...">
+    <img src="https://campagne.simplon.co/hs-fs/hubfs/4-Dec-12-2022-01-38-24-2883-PM.png?width=826&height=178&name=4-Dec-12-2022-01-38-24-2883-PM.png" class="card-img-top" alt="...">
+    <img src="https://campagne.simplon.co/hs-fs/hubfs/5-Dec-12-2022-01-38-44-4898-PM.png?width=890&height=228&name=5-Dec-12-2022-01-38-44-4898-PM.png" class="card-img-top" alt="...">
+    <img src="https://campagne.simplon.co/hs-fs/hubfs/Sans%20titre%20(23).png?width=905&height=290&name=Sans%20titre%20(23).png" class="card-img-top" alt="...">
+    <img src="https://campagne.simplon.co/hs-fs/hubfs/Sans%20titre%20(20).png?width=726&height=210&name=Sans%20titre%20(20).png" class="card-img-top" alt="...">
+    <img src="https://campagne.simplon.co/hs-fs/hubfs/8-4.png?width=815&height=188&name=8-4.png" class="card-img-top" alt="...">
+  </div>
+    
+        
+
+
+
+
+
+
+
+    <footer>
+        <div class="Footer_Container">
+        <br><br>
+            <!---------------- Debut Section Newsletters ------------->
+            <div class="Section_Footer_Newsletters">
+                <div class="Section_Footer_Containt">
+                    <div class="Section_Footer_Newsletters_Text">
+                        <h2>Inscrivez-Vous a la NewsLetters</h2>
+                        <p>Inscrivez-vous recevoir toutes les
+                            nouvelles Actualités !</p>
+                    </div>
+                    <div class="Section_Footer_Newsletters_Input">
+                        <input type="text" placeholder="Saisissez Votre e-mail">
+                        <button>S'inscrire</button>
+                    </div>
+                </div>
+            </div>
+            <!--------------- Fin Section Newsletters --------------->
+            <div class="Section_Footer">
+                <div class="Section_Footer_logo">
+                    <h3><img src="../public/images/Menu_Footer/logo.png" alt="">&nbsp;Simplon.co</h3>
+                    <p>Simplon Sénégal vous forme aux métiers du numérique, développement web et mobile, digitalisation</p>
+                    <span><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i></span>
+                </div>
+                <div>
+                    <h3>Liens Utiles</h3>
+                    <p><a href="">Simplon Fondation</a></p>
+                    <p><a href="">Candidater</a></p>
+                    <p><a href="">Ecosystème et partenaires</a></p>
+                </div>
+                <div>
+                    <h3>FAQ</h3>
+                    <p><a href="">Qui sommes nous ?</a></p>
+                    <p><a href="">Anti FAQ</a></p>
+                    <p><a href="">Notre pédagogie</a></p>
+                </div>
+                <div>
+                    <h3>Autre</h3>
+                    <p><a href="">Contact</a></p>
+                    <p><a href="">Mention légale</a></p>
+                    <p><a href="">Accesssibilité</a></p>
+                </div>  
+            </div>
+            <br><br>
+            <hr style="width: 80%; margin: auto;">
+            <p class="Copyright">Copyright &nbsp;<i class="fa-solid fa-copyright"></i> &nbsp;2023 Simplon Education.</p>
+            <br>
+        </div>
+    </footer>
+</body>
+</html>
