@@ -1,6 +1,6 @@
 #img{
     width: 100%;
-    height: 300px;
+    height: 500px;
 }
 :root {
     --main-color: #CE0033;
@@ -48,4 +48,23 @@
     position: relative;
     /* right: 100vh; */
     top: -43vh;
+}
+/* .text_entreprise{
+    justify-content: center;
+    position: absolute;
+   margin-left: 120vh;
+   
+} */
+.plateform{
+    width: 5%;
+    height: 30px;
+    display: flex;
+    margin-left: 110px;
+    margin-top: 100px;
+    gap: 20px;
+    
+}
+.row{
+    margin-top: 80px;
+    border: none;
 }
