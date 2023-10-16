@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Declaration des variable pour les couleurs */
+:root {
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color: white;
+}
+
+/* stylisation de la baniere */
+
+.banierre {
+    background-image: url('../images/article/banierre.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: -10vh;
+    color: white;
+    padding: 32vh 0;
+}
+
+.banierre h1 {
+    font-size: 9vh;
+}

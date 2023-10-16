@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* Declaration des variable pour les couleurs */
+:root{
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color:white;
+}
+/* stylisation de la section formation partenaire */
+
+.contenu-accueil .banierre{
+    background-image: url('https://img.freepik.com/free-photo/study-group-african-people_23-2149156390.jpg?size=626&ext=jpg&ga=GA1.1.59389668.1692912989&semt=sph');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin-top: -10vh;
+    color: white;
+    /* padding: 20vh 0; */
+}
+
+/* Partie commune à toutes les sections  */
+.rotation-square{
+    background-color: var(--main-color);
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    rotate: -45deg;
+}
+.soulignement{
+    width: 20vh;
+    margin: 0 auto 20px;
+    display: block;
+    background-color: var(--main-color);
+    height: 3px;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.bouton{
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+}
+
+.bouton:hover{
+    background-color: var(--third-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+/* Fin partie commune*/
+
+/* Debuts nos formations  */
+.formations .card{
+    height: 80vh;
+    border-radius: 3vh;
+}
+
+.formations .card img{
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+}
+
+.formations .card .card-title{
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.formations #btn-decouvrir{
+    background-color: var(--third-color);
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    width: 60%;
+    margin: 0 auto;
+}
+.formations #btn-decouvrir:hover{
+    background-color: var(--main-color);
+    color: var(--third-color);
+}
+/* Fin nos formations  */
+
+
+/* Debut formations en partenariat  */
+.formation-part #grid-items-partenaire{
+    background-color: #EEEEEE;
+    border-radius: 30px;
+}
+.formation-part #img-partenaire{
+    height: 250px;
+    border-radius: 30px 30px 0 0;
+    
+}
+.formation-part #btn-decouvrir{
+    border-radius: 30px;
+    background-color: var(--main-color);
+    color: var(--third-color);
+}
+.formation-part #btn-decouvrir:hover{
+    background-color: var(--third-color);
+    color: var(--main-color);
+}
+/* Fin formations en partenariat  */
+/* Debut section Témoignages */
+.container-temoignage .card-element {
+    padding: 0;
+}
+
+.container-temoignage .video-temoin{
+    border-top-left-radius: 20vh;
+    border-top-right-radius: 20vh;
+}
+
+.container-temoignage .profil{
+    justify-content: end;
+}
+
+.container-temoignage .profil-name{
+    text-align: end;
+    margin-right: 2vh;
+}
+.container-temoignage .profil-name .metier{
+    color: var(--main-color);
+}
+
+.container-temoignage .profil img{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+}
+
+.bouton-temoignage{
+    background-color: var(--main-color); 
+    color: var(--third-color);
+    font-weight: bold;
+    border-radius: 30px;
+}
+.bouton-temoignage:hover{
+    background-color: var(--third-color); 
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+/* Fin section Témoignages */
+
+/* Debut impact  */
+.impact #contain-impact{
+    background-image: url("../images/accueil/impact.jpg");
+    background-size: 100%;
+    height: 250px;
+    background-position: center;
+}
+.impact .banner-container{
+    background-color: #ce00345b;
+    height: 250px;
+    padding: 50px;
+}
+.impact .contain-chiffre-impact{
+    display: flex;
+    /* border: 4px solid green; */
+    width: 90%;
+    margin: auto;
+}
+.impact .chiffre-impact{
+    border-right: 2px solid var(--third-color);
+    width: 30%;
+    padding: 0 20px 0 20px;
+}
+.impact #chiffre-except{
+    border: none !important;
+}
+/* Fin impact  */
+
+/* Debut team  */
+.team img{
+    width: 100%;
+    border: 1px solid var(--main-color);
+}
+
+.team .fa-brands{
+    background-color: var(--main-color);
+    padding: 1vh;
+    color: var(--third-color);
+    border-radius: 100%;
+}
+/* Fin team  */
+
+/* Debut nos soutiens  */
+.soutien #partenaire{
+    height: 85px !important;
+}
+
+.soutien a{
+    text-decoration: none;
+}
+/* Fin nos soutiens  */

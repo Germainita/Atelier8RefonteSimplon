@@ -1,0 +1,70 @@
+:root {
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color: white;
+    --header-color: #262626;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-temoin img{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+
+.first-temoin .profil-name{
+    margin: 4vh 2vh;
+    font-size: 3vh;    
+}
+
+.first-temoin .profil-name .metier{
+    color: var(--main-color);
+}
+
+.first-temoin .circle{
+    width: 30vh;
+    height: 30vh;
+    border: 15px solid var(--main-color);
+    opacity: 0.3;
+    margin-top: -20vh;
+    float: right;
+}
+
+
+/* Les questionnaires  */
+.details-group-example sl-details:not(:last-of-type) {
+    margin-bottom: var(--sl-spacing-2x-small);
+  }
+
+.icone-up{
+    rotate: -90deg;
+}
+
+sl-details{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+sl-details .detail{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+sl-icon{
+    color: var(--main-color);
+}
+/* Fin questionnaires  */
+
+/* Partager cet article  */
+.partage-article .fa-brands{
+    background-color: var(--third-color);
+    padding: 1vh;
+    border-radius: 100%;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    margin-right: 1vh;
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="IA .css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="Menu.js">
+    <link rel="stylesheet" href="../public/css/header_footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>ecole IA by simplon</title>
+    <script src="Menu.js"></script>
+</head>
+<body>
+  <div class="Container_Menu">
+    <!------------------Debut Section Prémier Menu-------------------------> 
+    <div class="FirstMenu">
+      <ul>
+          <li><a href="../accueil/accueil.html"><img src="../public/images/Menu_Footer/logo.png" alt="">Simplon.co</a></li>
+          <li class="dropdown">A-propos&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+              <!-----------Début Section DropdownMenu qui se deplie------->
+              <div class="dropdown-content">
+                  <a href="../qui_somme_nous/qui_somme_nous.html">Qui Somme Nous ?</a>
+                  <a href="../pedagogie_simplon/pedagogie.html">Notre Pedagogie</a>
+                  <a href="../reseau _fabrique/reseau_fabrique.html">Notre Reseaux de Fabrique</a>
+                  <a href="../numerique_inclusif/numerique_inclusif.html">Un Numérique Inclusif</a>
+                  <a href="../anti_faq/antifaq.html">Anti-FAQ</a>
+              </div>
+              <!-----------Fin Section DropdownMenu qui se deplie ------------->
+          </li>
+          <li class="dropdown">Entreprise&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+              <!-----------Début Section DropdownMenu qui se deplie------->
+              <div class="dropdown-content">
+                  <a href="../entreprise former ses salariées/salaries .css">Former ces Salariés ?</a>
+                  <a href="../entreprise/entreprise.html">Collecte de la tva 2023</a>
+              </div>
+               <!-----------Fin Section DropdownMenu qui se deplie ------------->
+          </li>
+          <li class="dropdown">Alternance&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+               <!-----------Début Section DropdownMenu qui se deplie------->
+              <div class="dropdown-content">
+                  <a href="../faire ma formation en alternance/faire formation.html">Faire ma formation en alternance</a>
+                  <a href="../Recruter en alternance/recruter.html">Recruter en Alternance</a>
+              </div>
+               <!-----------Fin Section DropdownMenu qui se deplie ------------->
+          </li>
+          <li><a href="../devenir_formateur/Devenir_Formateur.html" style="text-decoration: none; color: white;">Devenir Formateur</a></li>
+          <li class="Social_Media"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i></li>
+          <!-- <span><i class="fa-solid fa-bars iconeBarLeft"id="cach1" style="font-size: 30px;" ></i></span> -->
+          <i class="fa-solid fa-bars iconeBarRight" id="cach" style="font-size: 30px;" onclick="afficher()"></i>
+         
+      </ul>
+    </div>
+    <!------------------------ Fin Section Prémier Menu --------------------->
+    <!------------------------Début Section Sidebar Bar Accordion --------------------->
+    <div id="MenuSec">
+        <br><br>
+        <div class="accordion accordion-flush" id="">
+            <!-- Formations  -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Formation
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul>
+                        <a href="../Formation_Securite/Securite.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Infrastructure & Cybersécurité</li></a>
+                        <a href="../Formation_Securite/developpement_detail.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Développement d'Application</li></a>
+                        <a href="../Formation_Securite/fondamentaux_numerique.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Fondamentaux Numérique</li></a>
+                        <a href="../Formation_Securite/gestion__projet.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Gestion de projet Agile</li></a>
+                        <a href="../Formation_Securite/cloud_ops.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Cloud & DevOps</li></a>
+                        <a href="../Formation_Securite/intelligence.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Data & Intelligence Artificielle</li></a>
+                        <a href="../Formation_Securite/metavers.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Métavers & XR</li></a>
+                        <a href="../Formation_Securite/Blockchain.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Blockchain</li></a>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Candidats  -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Candidats
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul>
+                        <a href="../candidats/candidater.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Candidater</li></a>
+                        <a href="../candidats/valider-acqui.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Valider ses acquis par la VAE</li></a>
+                        <a href="../Ecole simplon/actions.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les femmes</li></a>
+                        <a href="../candidats/handicap.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Personne en situation de handicap</li></a>
+                        <a href="../nos_actions/action.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les refugiés et les ressortissants non européens</li></a>
+                      </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog  -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Blog
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                      <a href="../blog/article.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Article</li></a>
+                      <a href="../blog/presse.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Presse</li></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- A propos  -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwoTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoTwo" aria-expanded="false" aria-controls="flush-collapseTwoTwo">
+                    A-Propos
+                  </button>
+                </h2>
+                <div id="flush-collapseTwoTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                      <ul>
+                          <a href="../qui_somme_nous/qui_somme_nous.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Qui Somme Nous ?</li></a>
+                          <a href="../pedagogie_simplon/pedagogie.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Pedagogie</li></a>
+                          <a href="../reseau _fabrique/reseau_fabrique.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Reseaux de Fabrique</li></a>
+                          <a href="../numerique_inclusif/numerique_inclusif.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Un Numérique Inclusif</li></a>
+                          <a href="../anti_faq/antifaq.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Anti-FAQ</li></a>
+                        </ul>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Entreprise  -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingEntreprise">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEntreprise" aria-expanded="false" aria-controls="flush-collapseEntreprise">
+                    Entreprise
+                  </button>
+                </h2>
+                <div id="flush-collapseEntreprise" class="accordion-collapse collapse" aria-labelledby="flush-headingEntreprise" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                      <ul>
+                          <a href="../entreprise former ses salariées/salaries.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Former ses Salariés ?</li></a>
+                          <a href="../entreprise/entreprise.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Collecte de la Tva 2023</li></a>
+                        </ul>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Alternance  -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingAlternance">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAlternance" aria-expanded="false" aria-controls="flush-collapseAlternance">
+                    Alternance
+                  </button>
+                </h2>
+                <div id="flush-collapseAlternance" class="accordion-collapse collapse" aria-labelledby="flush-headingAlternance" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                      <ul>
+                          <a href="../faire ma formation en alternance/faire formation.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Faire ma formation en Alternance</li></a>
+                          <a href="../Recruter en alternance/recruter.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Recruter en Alternance/li></a>
+                        </ul>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+        <ul>
+            <li><span onclick="cacher()" id="X_Bar"><i class="fa-solid fa-x"></i></span></li>
+        </ul>
+    </div>
+    <!-------------------------Fin Section Sidebar Bar Accordion ----------------------->
+    <!-------------------------- Début Section SecondMenu ---------------------------->
+    <div class="SecondMenu">
+        <div class="SecondMenu_Image">
+            <a href="../accueil/accueil.html"><img src="../public/images/Menu_Footer/simplon (1).png" alt=""></a>
+        </div>
+        <div class="SecondMenu_Formation">
+            <img src="../public/images/Menu_Footer/formation-removebg-preview.png" alt="">
+            <div>
+                <h6>Formation&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                <span>Decouvrir nos Formation</span>
+            </div>
+            <!-----------------Debut Sous Menu----------------->
+            <div class="dropdown-content_SecondMenu">
+                <a href="../formation_securite/Securite.html">Infrastrurcute & Cybersécurité</a>
+                <a href="../formation_securite/developpement_detail.html">Développement d'application</a>
+                <a href="../formation_securite/fondamentaux_numerique.html">Fondamentaux numérique</a>
+                <a href="../formation_securite/gestion__projet.html">Gestion de projet agile</a>
+                <a href="../formation_securite/cloud_ops.html">Cloud & Devops</a>
+                <a href="../formation_securite/intelligence.html">Data & Intelligence Artificielle</a>
+                <a href="../formation_securite/metavers.html">Métavers & XR</a>
+                <a href="../formation_securite/Blockchain.html">Blockchain</a>
+            </div>
+            <!-----------------Fin Sous Menu----------------->
+        </div>
+        <div class="SecondMenu_Formation">
+            <img src="../public/images/Menu_Footer/candidat-removebg-preview.png" alt="" style="max-width: 60px; height: 50px;">
+            <div>
+                <h6>Candidats&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                <span>Lire nos derniers Articles</span>
+            </div>
+            <!-----------------Debut Sous Menu----------------->
+            <div class="dropdown-content_SecondMenu">
+                <a href="../candidats/candidater.html">Candidater</a>
+                <a href="../candidats/valider-acqui.html">Valider ses acquis par la VAE</a>
+                <a href="../Ecole simplon/actions.html">Nos actions pour les femmes</a>
+                <a href="../candidats/handicap.html">Personnes en situation de handicap</a>
+                <a href="../nos_actions/action.html">Nos actions pour les refugiés et ressortissants non européens</a>
+            </div>
+            <!-----------------Fin Sous Menu----------------->
+        </div>
+        <div class="SecondMenu_Formation">
+            <img src="../public/images/Menu_Footer/blog-removebg-preview.png" alt="">
+            <div>
+                <h6>Blog&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                <span>Lire nos derniers Articles</span>
+            </div>
+            <!-----------------Debut Sous Menu----------------->
+            <div class="dropdown-content_SecondMenu">
+                <a href="../blog/article.html">Article</a>
+                <a href="../blog/presse.html">Presse</a>
+            </div>
+            <!-----------------Fin Sous Menu----------------->
+        </div>
+    </div>
+    <!---------------Fin Section du Second Menu --------------------------->
+
+
+    <div class="card bg-dark text-white">
+        <img src="./image/banierre.PNG" class="card-img" id="img"/>
+        <div class="card-img-overlay text-center mt-5">
+          <h5 class="card-title mt-5">École IA Microsoft By Simplon - Développeur-se <br> en intelligence artificielle</h5>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+         <div class="card border border-light shadow-0 mb-3 bg-secondary-subtle text-dark mt-5" style="max-width: 25rem; ">
+            <div class="card-body ">
+              <h5 class="card-title"><img src="./image/Capture d’écran 2023-10-12 130900.png" alt="">CERTIFICATION</h5>
+              <h6 class="card-title">Parcours délivrant un titre à finalité professionnelle et une certification reconnus par l’État, ainsi qu’une certification éditeur Microsoft Azure.</h6>
+              <p class="card-text">Le titre à finalité professionnelle Développeur en intelligence artificielle* RNCP34757 de niveau 6 (ancien niveau II), équivalent Bac+3 ou 4 – (accessible également par la VAE, toutes les informations ici)
+                Une certification inscrite au Répertoire spécifique Gérer un projet en mobilisant les méthodes agiles RS5487
+                Une certification éditeur Microsoft Azure Fundamentals - AZ-900
+                
+                Une certification éditeur Microsoft Azure Notions de base d’IA - AI-900*Si toutes les compétences ne sont pas acquises à l'issue de la formation, une validation partielle de ces certifications est possible
+                
+                Voie d’accès à la certification :
+                
+                En contrat de professionnalisation / en contrat d’apprentissage ;
+                Après un parcours de formation continue ;
+                Par expérience.
+                
+                Le taux de réussite des candidat-es présents au Titre développeur/se en IA, entre le 26/02/2021 et le 28/10/2022 est de 99% (90% réussi totalement et 9% partiellement) <br>
+            </div>
+          </div>
+          <div class="card text shadow p-4   mt-5 ms-4" style="max-width: 20rem; height: 28rem;">
+            <div class="card-body  ">
+               <p class="card-text">Le titre à finalité professionnelle RNCP34757 est publié au Répertoire national des certifications de France Compétences, et une certification inscrite Répertoire spécifique des certifications de France Compétences.</p>
+               <img src="https://simplon.co/uploads/Logo-France%20competence/Logo-France-competence/France-compe%CC%81tences-rncp.png" class="card-img-top" alt="...">
+               <img src="https://simplon.co/uploads/Logo-France%20competence/Logo-France-competence/logoFC-RSpng" class="card-img-top" alt="...">
+          </div>
+         </div>
+      </div>
+      <div>
+       
+        <div class="row mt-5 justify-content-center">
+          <div class="card text border-0  mt-5 ms-5" style="max-width: 20rem; height: 28rem;">
+            <div class="card-body  ">
+                <h5> <img src="https://simplon.co/images/presentation.svg" class="card-img-top" style="width: 4rem;" alt="...">&ensp; &ensp;Présenration <i class="fa-solid fa-plus" id="icon"></i></h5>   
+               <br>
+               <h5><img src="https://simplon.co/images/competence.svg" class="card-img-top" style="width: 4rem;" alt="..."> &ensp; &ensp;Compétence Visées <i class="fa-solid fa-plus" id="icon"></i></h5>
+               <br>
+              <h5> <img src="https://simplon.co/images/programme.svg" class="card-img-top" style="width: 4rem;" alt="...">&ensp; &ensp;Programme<i class="fa-solid fa-plus" id="icon"></i></h5>
+               <br>
+               <h5><img src="https://simplon.co/images/admission.svg" class="card-img-top" style="width: 4rem;" alt="...">&ensp; &ensp;Admission </h5>
+          </div>
+         </div>
+          <div class="card border-danger" style="width: 30rem;">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+              <p class="card-text">La formation est ouverte à toute personne inscrite en tant que demandeur et demandeuse d’emploi.
+  
+                Très forte motivation, à prouver !
+                Découvrir le monde de la donnée soi-même (ex. plateformes d'apprentissage en ligne)
+                Une première expérience en programmation (connaissance d’un langage de programmation back-end)
+                Un niveau lycée en mathématiques (fonctions et dérivées à minima)
+                Explorer les principaux métiers du numérique, ce qu’ils font, à quoi ils servent
+                Vouloir travailler en équipe
+                
+                Ce que nous cherchons ?
+                De la curiosité, de la créativité, une bonne expression à l’oral et à l’écrit, une représentation claire du métier… et bien sûr, l’envie de s’engager dans une formation intense !
+                Une attention particulière sera donnée aux candidats et candidates issus des formations labellisées GEN (spécialisation "développeur") ou assimilées, ainsi qu'aux profils sous-représentés dans le secteur du numérique.
+                
+                Pour les personnes en situation de handicap
+                Les formations Simplon sont ouvertes à toutes et tous, inclusives et accueillantes pour les personnes en situation de handicap. Concernant les modalités physiques de la formation,c’est environ 7h par jour de station assise, dans un open space (donc parfois bruyant), avec la nécessité de se déplacer dans la salle et d’éventuellement transporter son ordinateur. Concernant les modalités organisationnelles, il y a possibilité de télétravail ou, en présentiel, d’isolement dans une salle pour se reposer, même s’il y a la nécessité de travailler régulièrement en groupe.
+                
+                La mise en place d’aménagements est possible, n'hésitez pas à prendre contact avec l'équipe de la Fabrique. En fonction des aménagements, ceux-ci se font soit uniquement avec le ou la référente handicap et l’équipe pédagogique soit avec l’appui des Services Public de l’Emploi et les partenaires spécialisés (Agefiph et ressource Handicap Formation).
+                La VAE, Validation des Acquis de l'Expérience
+                Ce titre RNCP à finalité professionnelle est accessible par la VAE, si vous avez déjà une expérience solide en intelligence artificielle.
+                Rendez-vous sur cette page pour toutes les informations relatives à la VAE.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 ms-5">
+          <div class="card-body">
+            <h5 class="card-title ms-5"><img src="./image/Capture_d_écran_2023-10-13_063914-removebg-preview.png" id="coeur">Prix de la formation</h5>
+            <p class="card-text">Le coût horaire de cette formation (incluant le passage de certifications) varie de 12 euros à 27euros de l'heure (hors majoration ou modulation liée à un dispositif spécifique). Pour les apprenants, cette formation est intégralement prise en charge. Simplon s'assure du financement de cette formation au travers de différents dispositifs à savoir Pôle Emploi, OPCO, Fonds européens, Régions, CPF, Entreprise (sur devis dans le cadre de la formation de leurs salariés, ou au travers d'un reste à charge dans le cadre de l'alternance),etc.</p>
+            <p class="card-text text-danger">Ils emploient des Simploniens et Simploniennes</p>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="Footer_Container">
+        <br><br>
+            <!---------------- Debut Section Newsletters ------------->
+            <div class="Section_Footer_Newsletters">
+                <div class="Section_Footer_Containt">
+                    <div class="Section_Footer_Newsletters_Text">
+                        <h2>Inscrivez-Vous a la NewsLetters</h2>
+                        <p>Inscrivez-vous recevoir toutes les
+                            nouvelles Actualités !</p>
+                    </div>
+                    <div class="Section_Footer_Newsletters_Input">
+                        <input type="text" placeholder="Saisissez Votre e-mail">
+                        <button>S'inscrire</button>
+                    </div>
+                </div>
+            </div>
+            <!--------------- Fin Section Newsletters --------------->
+            <div class="Section_Footer">
+                <div class="Section_Footer_logo">
+                    <h3><img src="../public/images/Menu_Footer/logo.png" alt="">&nbsp;Simplon.co</h3>
+                    <p>Simplon Sénégal vous forme aux métiers du numérique, développement web et mobile, digitalisation</p>
+                    <span><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i></span>
+                </div>
+                <div>
+                    <h3>Liens Utiles</h3>
+                    <p><a href="../simplon-fondation/simplon-fondation.html">Simplon Fondation</a></p>
+                    <p><a href="../candidats/candidater.html">Candidater</a></p>
+                    <p><a href="../ecosystem_partenaire/ecosystem_patenaire.html">Ecosystème et partenaires</a></p>
+                </div>
+                <div>
+                    <h3>FAQ</h3>
+                    <p><a href="../qui_somme_nous/qui_somme_nous.html">Qui sommes nous ?</a></p>
+                    <p><a href="../anti_faq/antifaq.html">Anti FAQ</a></p>
+                    <p><a href="../pedagogie_simplon/pedagogie.html">Notre pédagogie</a></p>
+                </div>
+                <div>
+                    <h3>Autre</h3>
+                    <p><a href="../contact/contact.html">Contact</a></p>
+                    <p><a href="../mention_legale/mention.html">Mention légale</a></p>
+                    <p><a href="../accessibile/accessibilite.html">Accesssibilité</a></p>
+                </div>  
+            </div>
+            <br><br>
+            <hr style="width: 80%; margin: auto;">
+            <p class="Copyright">Copyright &nbsp;<i class="fa-solid fa-copyright"></i> &nbsp;2023 Simplon Education.</p>
+            <br>
+        </div>
+      </footer>
+</body>
+</html>

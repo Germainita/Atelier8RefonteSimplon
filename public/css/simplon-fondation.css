@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* Declaration des variable pour les couleurs */
+:root{
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color:white;
+}
+/* Section commune  */
+.bouton{
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+}
+
+.fondation img {
+    border-radius: 3vh;
+    width: 100%;
+}
+
+.bouton:hover{
+    background-color: var(--third-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+/* Fin section commune  */
+
+/* Sections missions  */
+.fondation .section-missions .card{
+    border: none;
+    border-radius: 2vh;
+    background-color: #F6F6F6;
+}
+.fondation .card {
+    border-radius: 3vh;
+}
+.fondation .section-missions img {
+    height: 50%;
+}
+
+.fondation .card .title{
+    color: var(--main-color);
+    font-weight: bolder;
+}
+.fondation-item{
+    margin-top: 15vh;
+}
+/* Fin Sections missions */
+
+/* Section don  */
+.lire-plus{
+    text-decoration: none;
+    color: var(--main-color);
+    float: right;
+}
+/* Fin section don  */
+
+
+/* Section faire un don  */
+.buton-don{
+    background-color: var(--third-color);
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+.buton-don:hover{
+    background-color: var(--main-color);
+    color: var(--third-color);
+}
+
+.section-faire-don .text-don{
+    background-color: #F6F6F6;
+    font-size: 3vh;
+    padding: 8vh 20vh 8vh 5vh;
+}
+.section-faire-don .text-don{
+    background-color: #F6F6F6;
+    font-size: 3vh;
+    padding: 8vh 20vh 8vh 5vh;
+}
+
+.titre-don{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10vh 10vh;
+    margin-top: 43vh;
+    margin-left: -20vh;
+}
+/* Section faire un don  */
+

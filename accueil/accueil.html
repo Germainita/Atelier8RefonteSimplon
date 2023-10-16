@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/article.css">
+    <link rel="stylesheet" href="../public/css/header_footer.css">
+    <link rel="stylesheet" href="../public/css/accueil.css">
+    
+    <script src="../Menu/Menu.js"></script>
+    <title>Accueil</title>
+</head>
+<body>
+    <!------------------Début Section Container_Menu --------------------------->
+    <div class="Container_Menu">
+        <!------------------Debut Section Prémier Menu------------------------->
+        
+        <div class="FirstMenu">
+            <ul>
+                <li><a href="../accueil/accueil.html"><img src="../public/images/Menu_Footer/logo.png" alt="">Simplon.co</a></li>
+                <li class="dropdown">A-propos&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                    <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="../qui_somme_nous/qui_somme_nous.html">Qui Somme Nous ?</a>
+                        <a href="../pedagogie_simplon/pedagogie.html">Notre Pedagogie</a>
+                        <a href="../reseau _fabrique/reseau_fabrique.html">Notre Reseaux de Fabrique</a>
+                        <a href="../numerique_inclusif/numerique_inclusif.html">Un Numérique Inclusif</a>
+                        <a href="../anti_faq/antifaq.html">Anti-FAQ</a>
+                    </div>
+                    <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li class="dropdown">Entreprise&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                    <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="../entreprise former ses salariées/salaries.html">Former ces Salariés ?</a>
+                        <a href="../entreprise/entreprise.html">Collecte de la tva 2023</a>
+                    </div>
+                     <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li class="dropdown">Alternance&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                     <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="../faire ma formation en alternance/faire formation.html">Faire ma formation en alternance</a>
+                        <a href="../Recruter en alternance/recruter.html">Recruter en Alternance</a>
+                    </div>
+                     <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li><a href="../devenir_formateur/Devenir_Formateur.html" style="text-decoration: none; color: white;">Devenir Formateur</a></li>
+                <li class="Social_Media"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i></li>
+                <!-- <span><i class="fa-solid fa-bars iconeBarLeft"id="cach1" style="font-size: 30px;" ></i></span> -->
+                <i class="fa-solid fa-bars iconeBarRight" id="cach" style="font-size: 30px;" onclick="afficher()"></i>
+               
+            </ul>
+        </div>
+        <!------------------------ Fin Section Prémier Menu --------------------->
+        <!------------------------Début Section Sidebar Bar Accordion --------------------->
+        <div id="MenuSec">
+            <br><br>
+            <div class="accordion accordion-flush" id="">
+                <!-- Formations  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Formation
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="../Formation_Securite/Securite.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Infrastructure & Cybersécurité</li></a>
+                            <a href="../Formation_Securite/developpement_detail.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Développement d'Application</li></a>
+                            <a href="../Formation_Securite/fondamentaux_numerique.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Fondamentaux Numérique</li></a>
+                            <a href="../Formation_Securite/gestion__projet.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Gestion de projet Agile</li></a>
+                            <a href="../Formation_Securite/cloud_ops.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Cloud & DevOps</li></a>
+                            <a href="../Formation_Securite/intelligence.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Data & Intelligence Artificielle</li></a>
+                            <a href="../Formation_Securite/metavers.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Métavers & XR</li></a>
+                            <a href="../Formation_Securite/Blockchain.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Blockchain</li></a>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Candidats  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Candidats
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="../candidats/candidater.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Candidater</li></a>
+                            <a href="../candidats/valider-acqui.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Valider ses acquis par la VAE</li></a>
+                            <a href="../Ecole simplon/actions.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les femmes</li></a>
+                            <a href="../candidats/handicap.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Personne en situation de handicap</li></a>
+                            <a href="../nos_actions/action.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les refugiés et les ressortissants non européens</li></a>
+                           </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Blog  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Blog
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                       <ul>
+                          <a href="../blog/article.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Article</li></a>
+                          <a href="../blog/presse.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Presse</li></a>
+                       </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- A propos  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwoTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoTwo" aria-expanded="false" aria-controls="flush-collapseTwoTwo">
+                        A-Propos
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwoTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="../qui_somme_nous/qui_somme_nous.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Qui Somme Nous ?</li></a>
+                              <a href="../pedagogie_simplon/pedagogie.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Pedagogie</li></a>
+                              <a href="../reseau _fabrique/reseau_fabrique.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Reseaux de Fabrique</li></a>
+                              <a href="../numerique_inclusif/numerique_inclusif.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Un Numérique Inclusif</li></a>
+                              <a href="../anti_faq/antifaq.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Anti-FAQ</li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- Entreprise  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEntreprise">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEntreprise" aria-expanded="false" aria-controls="flush-collapseEntreprise">
+                        Entreprise
+                      </button>
+                    </h2>
+                    <div id="flush-collapseEntreprise" class="accordion-collapse collapse" aria-labelledby="flush-headingEntreprise" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="../entreprise former ses salariées/salaries.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Former ses Salariés ?</li></a>
+                              <a href="../entreprise/entreprise.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Collecte de la Tva 2023</li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- Alternance  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingAlternance">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAlternance" aria-expanded="false" aria-controls="flush-collapseAlternance">
+                        Alternance
+                      </button>
+                    </h2>
+                    <div id="flush-collapseAlternance" class="accordion-collapse collapse" aria-labelledby="flush-headingAlternance" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="../faire ma formation en alternance/faire formation.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Faire ma formation en Alternance</li></a>
+                              <a href="../Recruter en alternance/recruter.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Recruter en Alternance/li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+            <ul>
+                <li><span onclick="cacher()" id="X_Bar"><i class="fa-solid fa-x"></i></span></li>
+            </ul>
+        </div>
+        <!-------------------------Fin Section Sidebar Bar Accordion ----------------------->
+        <!-------------------------- Début Section SecondMenu ---------------------------->
+        <div class="SecondMenu">
+            <div class="SecondMenu_Image">
+                <a href="../accueil/accueil.html"><img src="../public/images/Menu_Footer/simplon (1).png" alt=""></a>
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/formation-removebg-preview.png" alt="">
+                <div>
+                    <h6>Formation&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Decouvrir nos Formation</span>
+                </div>
+                <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="../formation_securite/Securite.html">Infrastrurcute & Cybersécurité</a>
+                    <a href="../formation_securite/developpement_detail.html">Développement d'application</a>
+                    <a href="../formation_securite/fondamentaux_numerique.html">Fondamentaux numérique</a>
+                    <a href="../formation_securite/gestion__projet.html">Gestion de projet agile</a>
+                    <a href="../formation_securite/cloud_ops.html">Cloud & Devops</a>
+                    <a href="../formation_securite/intelligence.html">Data & Intelligence Artificielle</a>
+                    <a href="../formation_securite/metavers.html">Métavers & XR</a>
+                    <a href="../formation_securite/Blockchain.html">Blockchain</a>
+                </div>
+                <!-----------------Fin Sous Menu----------------->
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/candidat-removebg-preview.png" alt="" style="max-width: 60px; height: 50px;">
+                <div>
+                    <h6>Candidats&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Lire nos derniers Articles</span>
+                </div>
+                 <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="../candidats/candidater.html">Candidater</a>
+                    <a href="../candidats/valider-acqui.html">Valider ses acquis par la VAE</a>
+                    <a href="../Ecole simplon/actions.html">Nos actions pour les femmes</a>
+                    <a href="../candidats/handicap.html">Personnes en situation de handicap</a>
+                    <a href="../nos_actions/action.html">Nos actions pour les refugiés et ressortissants non européens</a>
+                </div>
+                 <!-----------------Fin Sous Menu----------------->
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/blog-removebg-preview.png" alt="">
+                <div>
+                    <h6>Blog&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Lire nos derniers Articles</span>
+                </div>
+                 <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="../blog/article.html">Article</a>
+                    <a href="../blog/presse.html">Presse</a>
+                </div>
+                 <!-----------------Fin Sous Menu----------------->
+            </div>
+        </div>
+        <!---------------Fin Section du Second Menu --------------------------->
+
+        <!---------------Debut Section de votre Contenu ------------------>
+        <div class="contenu-accueil">
+            <div class="banierre mb-5"></div>
+
+            <!-- Nos formations, formations en partenarias, temoignages, articles  -->
+            <div class="container">
+                <!-- Debut nos formations  -->
+                <div class="formations mt-2 mb-5">
+                    <div class="rotation-square mb-3 mt-5"></div>
+                    <h3 class="text-center">Des formations aux Métiers</h3>
+                    <span class="soulignement"></span>
+                    <div class="row">
+                        <!-- Formation 1  -->
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="card">
+                                <img src="https://img.freepik.com/photos-gratuite/groupe-personnes-occupees-multinationales-travaillant-au-bureau_146671-15660.jpg?w=996&t=st=1696939057~exp=1696939657~hmac=15642e89195f3a287ea96153bc434f7cde5b0760c36c5e61dd2b5e3baef26d19" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Infrastructures et cybersecurité</h6>
+                                    <p class="card-text">La cybersécurité est un enjeu stratégique  pour toute entreprise en transition numérique.
+                                    ​​​​​​Vous souhaitez rejoindre les rangs
+                                    des métiers de la cybersécurité ?</p>
+                                    <a href="#" class="btn mt-5 d-block fw-bold" id="btn-decouvrir">Découvrir</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Formation 2  -->
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="card">
+                                <img src="https://img.freepik.com/free-photo/study-group-african-people_23-2149156391.jpg?size=626&ext=jpg&ga=GA1.1.59389668.1692912989&semt=sph" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Développement d’application</h6>
+                                    <p class="card-text">Le métier de développeur-se web vous intéresse ? Vous voulez élargir vos compétences en développement web et mobile ?</p>
+                                    <a href="#" class="btn mt-5 d-block fw-bold" id="btn-decouvrir">Découvrir</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Formation 3  -->
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VDhSgAyo9u9Yn11NCwOg9ez8thgAttr-hX0PQothJWqsaaxL" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Fondamentaux Numérique</h6>
+                                    <p class="card-text">Le numérique change notre quotidien de plus en plus vite. Vous souhaitez vous former aux fondamentaux numériques ?</p>
+                                    <a href="#" class="btn mt-5 d-block fw-bold" id="btn-decouvrir">Découvrir</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Formation 4  -->
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="card">
+                                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRnYnWqMvHcu4HJSx_JkVs_3KwQUWpf3YOTs0H3m5bolCE_xtTh" class="card-img-top" alt="...">
+                                <!-- <img src="..." class="card-img-top" alt="..." width="100%"> -->
+                                <div class="card-body">
+                                    <h6 class="card-title">Intelligence Artificielle ​​​​​​​et Data</h6>
+                                    <p class="card-text">IT, marketing, services clients...​​​​​​​Les besoins en compétences Data et IA se multiplient dans les entreprises.​​​​​​​Vous souhaitez devenir expert-e en Intelligence Artificielle ?</p>
+                                    <a href="#" class="btn mt-5 d-block fw-bold" id="btn-decouvrir">Découvrir</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Formation 5  -->
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="card">
+                                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSARNKopLo8xUcjnUiCdmxOAT3og1IXImsAaafyJNy2xV_9XyDh" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Méthodes ​​​​​​​Agiles</h6>
+                                    <p class="card-text">La formation Méthode agiles permet de gérer des projets rigoureusement tout en ajustant continuellement les taches. Vous Souhaitez développer vos compétences en gestion de projet agile?</p>
+                                    <a href="#" class="btn mt-5 d-block fw-bold" id="btn-decouvrir">Découvrir</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Formation 6  -->
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="card">
+                                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRF5MVZkMg5DT91Dis2zTNW8cGhD3MTUlhQ3O2mDWbBuBBkuP2t" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Cloud ​​​​​​​et Devops</h6>
+                                    <p class="card-text">​​​​​​​Le métier de Devops est de plus en plus indispensable dans le monde du numérique. Vous souhaitez développer​​​​​​​vos compétences en ​​​​​​​Cloud et Devops ?</p>
+                                    <a href="#" class="btn mt-5 d-block fw-bold" id="btn-decouvrir">Découvrir</a>
+                                </div>
+                            </div>
+                        </div>
+            
+                        
+                    </div> 
+                    <div class="text-center py-1">
+                        <a href="#" class="btn bouton rounded-pill px-5 fw-bold">Découvrez notre offre de formation</a>
+                    </div>
+                </div>
+                <!-- Fin nos formations  -->
+
+                <!-- Nos formations en partenariats  -->
+                <div class="formation-part mb-5">
+                    <section>
+                        <div class="container mt-5 py-3">
+                            <div class="rotation-square">
+                
+                            </div>
+                            <h3 class="text-center fw-bold py-2">Nos Formation en partenariat</h3>
+                            <span class="soulignement"></span>
+                            <div class="row">
+                                <div class="col-sm-4 mb-3">
+                                    <div class="card h-100" id="grid-items-partenaire">
+                                        <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logos-Meta-SIMPLON.png" class="card-img-top" alt="..." id="img-partenaire">
+                                        <div class="card-body">
+                                            <h6 class="card-title fw-bold">Formation Apple Foundation Program</h6>
+                                            <p class="card-text">
+                                                Initiez-vous avec Simplon et Apple à la conception d'une application mobile. Pour ajouter une corde à votre arc de
+                                                développeur-se, ou pour entamer un parcours dans le numérique, l'Apple Foundation Program est accessible aux
+                                                débutants
+                                                comme aux plus confirmés.
+                                            </p>
+                                            <a href="#" class="btn mt-5 d-block fw-bold" id="btn-decouvrir">Découvrir</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 mb-3">
+                                    <div class="card h-100" id="grid-items-partenaire">
+                                        <img src="https://simplon.co/uploads/Site%20national/Home-site-national/Logo-Apple-fondation-Program.png" class="card-img-top img-partenaire" alt="..." id="img-partenaire">
+                                        <div class="card-body">
+                                            <h6 class="card-title fw-bold">Formations Meta Académie</h6>
+                                            <p class="card-text mb-4">
+                                                Un nouvel espace qui offre de nouvelles perspectives professionnelles.
+                                                Donnez un souffle nouveau à votre carrière professionnelle. Devenez avec Simplon et Meta, Développeur-euse Réalité
+                                                Virtuelle Réalité Augmentée - 3D temps réel, ou encore Technicien-ne d’Assistance en Réalité Virtuelle.
+                                            </p>
+                                            <a href="#" class="btn d-block fw-bold" id="btn-decouvrir">Découvrir</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 mb-3">
+                                    <div class="card h-100" id="grid-items-partenaire">
+                                        <img src="https://simplon.co/uploads/Site%20national/Home-site-national/ECOLE_IA_CARRE_BLANC%20(2).png" class="card-img-top img-partenaire" alt="..." id="img-partenaire">
+                                        <div class="card-body">
+                                            <h6 class="card-title fw-bold">Formation Ecole IA Microsoft By Simplon</h6>
+                                            <p class="card-text">
+                                                L'Intelligence Artificielle, le métier de développeur-se prend un nouveau virage. Devenez un-e spécialiste du
+                                                développement d’applicatifs informatiques autour de l’IA et de la Data Science. L’Ecole IA Microsoft By Simplon est
+                                                engagée en matière d’égalité des chances.                            
+                                            </p>
+                                            <a href="#" class="btn mt-5 d-block fw-bold" id="btn-decouvrir">Découvrir</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Fin nos formations en partenariats-->
+
+                <div class="temoignage-actu">
+                    <!-- Temoignages -->
+                    <div class="container-temoignage mb-5">
+                        <div class="rotation-square mb-3"></div>
+                        <h3 class="text-center">Leurs Témoignages</h3>
+                        <span class="soulignement"></span>
+                        <div class="row">
+                            <!-- Temoignage 1  -->
+                            <div class="card-element temoignage-item col-lg-6 col-md-12 mb-4 p-3">
+                                <div class="card shadow rounded-4 border border-0">
+                                    <div class="video-temoin">
+                                        <iframe class="rounded-4 rounded-bottom-0" width="100%" height="300vh" src="https://www.youtube.com/embed/xTb_SveYNcg" title="Lauryn Ornella, devenue développeuse iOS après un parcours scolaire atypique" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="profil d-flex">
+                                            <div class="profil-name ">
+                                                <h5 class="fw-bold">Lauryne Ornella</h5>
+                                                <p class="metier">Devenue Développeuse IOS</p>
+                                            </div>
+                                            <img src="../public/images/accueil/section-temoignage/temoignage1.PNG" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Temoignage 2  -->
+                            <div class="card-element temoignage-item col-lg-6 col-md-12 mb-4 p-3">
+                                <div class="card shadow rounded-4 border border-0">
+                                    <div class="video-temoin">
+                                        <iframe class="rounded-4 rounded-bottom-0" width="100%" height="300vh" src="https://www.youtube.com/embed/8wjznNpQxZQ" title="Anthoni, Apprenant de l&#39;École Cyber Microsoft by Simplon 🚀 s&#39;orienter dans la cybersécurité" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="profil d-flex">
+                                            <div class="profil-name ">
+                                                <h5 class="fw-bold">Antony</h5>
+                                                <p class="metier">Apprenant de l'Ecole Cyber Microsoft</p>
+                                            </div>
+                                            <img src="../public/images/accueil/section-temoignage/temoignage2.PNG" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div> 
+                        <div class="text-center">
+                            <a href="#" class="btn bouton-temoignage col-lg-3">Plus de témoignages</a>   
+                        </div>  
+                        
+                    </div>
+                    <!-- Fin temoignages -->
+    
+                    
+                    <!-- Acrualités  -->
+                    <div class="actualite mb-5">
+                        <div class="rotation-square mb-3"></div>
+                        <h3 class="text-center">Nos Actuatlités</h3>
+                        <span class="soulignement"></span>
+                        <!-- Premiere ligne de l'actualité  -->
+                        <div class="row">
+                            <!-- actualite 1  -->
+                            <div class="card-element actualite-item col-lg-6 col-md-12 mb-3 p-2">
+                                <div class="card shadow rounded-0 border border-0">
+                                    <div class="row g-0">
+                                        <div class="col-lg-6 col-md-12">
+                                          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHfPH6cOk8DJPz87_JJNb_n_y6FBqPMEvowd_t24HnoGBRiTt7" class="" alt="..." width="100%" height="100%">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12">
+                                          <div class="card-body text-start">
+                                            <h5 class="card-title fs-4 fw-bold">Formez vous au metier du numerique en alternance</h5>
+                                            <p class="card-text fs-5 py-3">Découvrez nos formations en alternance chez simplon.co</p>
+                                            <a href="#" class="btn bouton px-3 rounded-4 mb-3">Nos parcours en Alternance</a>   
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- actualite 2  -->
+                            <div class="card-element actualite-item col-lg-6 col-md-12 mb-3 p-2">
+                                <div class="card shadow rounded-0 border border-0">
+                                    <div class="row g-0">
+                                        <div class="col-lg-6 col-md-12">
+                                          <img src="https://simplon.co/uploads/Apple-Foundation-Program/Simplonnienne-Lyon3.JPG" class="" alt="..." width="100%" height="100%">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12">
+                                          <div class="card-body text-start">
+                                            <h5 class="card-title fs-4 fw-bold">Boostez votre carrière dans le numérique !</h5>
+                                            <p class="card-text fs-5 py-3">Découvrez notre prochaine réunion d'information sur les métiers de la tech</p>
+                                            <a href="#" class="btn bouton px-3 rounded-4 mb-3">S'inscrire des maintenant</a>   
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Deuxieme ligne actualité  -->
+                        <div class="row">
+                            <!-- actualite 3  -->
+                            <div class="card-element actualite-item col-lg-6 col-md-12 mb-3 p-2">
+                                <div class="card shadow rounded-0 border border-0">
+                                    <div class="row g-0">
+                                        <div class="col-lg-6 col-md-12">
+                                          <img src="https://simplon.co/uploads/Apple-Foundation-Program/Simplonnienne-Lyon3.JPG" class="" alt="..." width="100%" height="100%">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12">
+                                          <div class="card-body text-start">
+                                            <h5 class="card-title fs-4 fw-bold">Boostez votre carrière dans le numérique !</h5>
+                                            <p class="card-text fs-5 py-3">Découvrez notre prochaine réunion d'information sur les métiers de la tech</p>
+                                            <a href="#" class="btn bouton px-3 rounded-4 mb-3">S'inscrire des maintenant</a>   
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- actualite 4  -->
+                            <div class="card-element actualite-item col-lg-6 col-md-12 mb-3 p-2">
+                                <div class="card shadow rounded-0 border border-0">
+                                    <div class="row g-0">
+                                        <div class="col-lg-6 col-md-12">
+                                          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHfPH6cOk8DJPz87_JJNb_n_y6FBqPMEvowd_t24HnoGBRiTt7" class="" alt="..." width="100%" height="100%">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12">
+                                          <div class="card-body text-start">
+                                            <h5 class="card-title fs-4 fw-bold">Formez vous au metier du numerique en alternance</h5>
+                                            <p class="card-text fs-5 py-3">Découvrez nos formations en alternance chez simplon.co</p>
+                                            <a href="#" class="btn bouton px-3 rounded-4 mb-3">Nos parcours en Alternance</a>   
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                    <!-- Fin Acrualités  -->
+
+                </div>
+
+            </div>
+
+            <!-- Debut section impact -->
+            <div class="impact mb-5">
+                <section>
+                    <div  id="contain-impact">  
+                        <div class="banner-container">
+                            <div class="contain-chiffre-impact">
+                                <div class="chiffre-impact">
+                                    <h1 class="text-white text-center mt-2">25000 <i class="bi bi-plus"></i></h1>
+                                    <p class="text-white text-center">Simploniens et Simploniennes dans le monde</p>
+                                </div>
+                                <div class="chiffre-impact">
+                                    <h1 class="text-white text-center mt-2">1577 <i class="bi bi-plus"></i></h1>
+                                    <p class="text-white text-center">Salariés formés aux métiers du numérique par Simplon</p>
+                                </div>
+                                <div class="chiffre-impact">
+                                    <h1 class="text-white text-center mt-2">37,6 %</h1>
+                                    <p class="text-white text-center">D'apprenantes formées au sein de nos Fabriques</p>
+                                </div>
+                                <div class="chiffre-impact" id="chiffre-except">
+                                    <h1 class="text-white text-center mt-2">75%</h1>
+                                    <p class="text-white text-center">Taux de sorties positives vers l’emploi ou en formation dans le monde</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Fin section impact  -->
+
+            <!-- Team et soutien -->
+            <div class="container">
+                <!-- Debut Team  -->
+                <div class="team mb-5">
+                    <div class="rotation-square mb-3"></div>
+                    <h3 class="text-center fw-bold py-2">Team</h3>
+                    <span class="soulignement"></span> 
+                    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="https://media.licdn.com/dms/image/C5603AQFAeTh8JgfGiA/profile-displayphoto-shrink_400_400/0/1591481008161?e=1702512000&v=beta&t=XVw4rrR93OOZiBADo_ckfGwm6MWsy9DnQUapec-iK7E" class="rounded-circle">
+                            <div class="text-center">
+                                <h5 class="mt-2 mb-3 fw-bold">Ngor SECK</h5>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="https://media.licdn.com/dms/image/C4D03AQFVCJDey4pJ0A/profile-displayphoto-shrink_400_400/0/1572458789806?e=1702512000&v=beta&t=7Geyc5v4UuHq8AN5hgOrVx_j6ijqH_unLrFFl9B8I_c" class="rounded-circle">
+                            <div class="text-center">
+                                <h5 class="mt-2 mb-3 fw-bold">Malick TIEMOGO</h5>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div> 
+                        </div>
+                        <div class="col-md-3">
+                            <img src="https://media.licdn.com/dms/image/D4E03AQE40YXmDBb_hQ/profile-displayphoto-shrink_400_400/0/1689974998547?e=1702512000&v=beta&t=6v4XG9nAnxCdS2Dc-AsGY5RGHg1XqIOnRJrldxGFVLA" class="rounded-circle">
+                            <div class="text-center">
+                                <h5 class="mt-2 mb-3 fw-bold">Samba Bery KANE</h5>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="https://avatars.githubusercontent.com/u/52637436?v=4" class="rounded-circle">
+                            <div class="text-center">
+                                <h5 class="mt-2 mb-3 fw-bold">Djiby SECK</h5>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Team  -->
+    
+                <!-- Debut nos soutiens -->
+                <div class="soutien mb-5">
+                    <div class="rotation-square mb-3"></div>
+                    <h3 class="text-center fw-bold py-2">Nos Soutiens</h4>
+                    <span class="soulignement"></span>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-3">
+                            <div class="card rounded-0 shadow-sm bg-white">
+                                <div class="card-body">
+                                    <img src="https://simplon.co/storage/2176/fondation-Fdj.png" alt="" class="w-100" id="partenaire">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-3">
+                            <div class="card rounded-0 shadow-sm bg-white">
+                                <div class="card-body">
+                                    <img src="https://simplon.co/storage/34459/PoleEmploi.jpeg" alt="" class="w-100 " id="partenaire">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-3">
+                            <div class="card rounded-0 shadow-sm bg-white">
+                                <div class="card-body">
+                                    <img src="https://simplon.co/storage/2175/Apple-Logo.gif" alt="" class="w-100" id="partenaire">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-3">
+                            <div class="card rounded-0 shadow-sm bg-white">
+                                <div class="card-body col-lg-3 col-md-6">
+                                    <img src="https://simplon.co/storage/1675/logo-esfin-gestion.gif" alt=""  id="partenaire">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-3 col-md-6 mb-3">
+                            <div class="card rounded-0 shadow-sm bg-white">
+                                <div class="card-body">
+                                    <img src="https://simplon.co/storage/1676/logo-mirova.png" alt="" class="w-100" id="partenaire">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-3">
+                            <div class="card rounded-0 shadow-sm bg-white">
+                                <div class="card-body">
+                                    <img src="https://simplon.co/storage/43396/cover_carrousel_logo2x.png" alt="" class="w-100" id="partenaire">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-3">
+                            <div class="card rounded-0 shadow-sm bg-white">
+                                <div class="card-body">
+                                    <img src="https://simplon.co/storage/1699/Fondation-Soci%C3%A9t%C3%A9-G%C3%A9n%C3%A9rale_logo.png" alt="" class="w-100" id="partenaire">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-3">
+                            <div class="card rounded-0 shadow-sm bg-white">
+                                <div class="card-body">
+                                    <img src="https://simplon.co/storage/1655/logo-Sncf-fondation.jpg" alt="" class="w-100" id="partenaire">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-end mt-2"><a href="" class="fw-bold text-dark">Voir plus...</a></p>            
+                </div>
+                <!-- Fin nos soutiens -->
+
+            </div>
+            
+        </div>
+        <!------------Fin Section de votre Contenu ------------------>
+        <!---------------- Debut Section Footer ---------------------->
+        <footer>
+            <div class="Footer_Container">
+            <br><br>
+                <!---------------- Debut Section Newsletters ------------->
+                <div class="Section_Footer_Newsletters">
+                    <div class="Section_Footer_Containt">
+                        <div class="Section_Footer_Newsletters_Text">
+                            <h2>Inscrivez-Vous a la NewsLetters</h2>
+                            <p>Inscrivez-vous recevoir toutes les
+                                nouvelles Actualités !</p>
+                        </div>
+                        <div class="Section_Footer_Newsletters_Input">
+                            <input type="text" placeholder="Saisissez Votre e-mail">
+                            <button>S'inscrire</button>
+                        </div>
+                    </div>
+                </div>
+                <!--------------- Fin Section Newsletters --------------->
+                <div class="Section_Footer">
+                    <div class="Section_Footer_logo">
+                        <h3><img src="../public/images/Menu_Footer/logo.png" alt="">&nbsp;Simplon.co</h3>
+                        <p>Simplon Sénégal vous forme aux métiers du numérique, développement web et mobile, digitalisation</p>
+                        <span><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                    <div>
+                        <h3>Liens Utiles</h3>
+                        <p><a href="../simplon-fondation/simplon-fondation.html">Simplon Fondation</a></p>
+                        <p><a href="../candidats/candidater.html">Candidater</a></p>
+                        <p><a href="../ecosystem_partenaire/ecosystem_patenaire.html">Ecosystème et partenaires</a></p>
+                    </div>
+                    <div>
+                        <h3>FAQ</h3>
+                        <p><a href="../qui_somme_nous/qui_somme_nous.html">Qui sommes nous ?</a></p>
+                        <p><a href="../anti_faq/antifaq.html">Anti FAQ</a></p>
+                        <p><a href="../pedagogie_simplon/pedagogie.html">Notre pédagogie</a></p>
+                    </div>
+                    <div>
+                        <h3>Autre</h3>
+                        <p><a href="../contact/contact.html">Contact</a></p>
+                        <p><a href="../mention_legale/mention.html">Mention légale</a></p>
+                        <p><a href="../accessibile/accessibilite.html">Accesssibilité</a></p>
+                    </div>  
+                </div>
+                <br><br>
+                <hr style="width: 80%; margin: auto;">
+                <p class="Copyright">Copyright &nbsp;<i class="fa-solid fa-copyright"></i> &nbsp;2023 Simplon Education.</p>
+                <br>
+            </div>
+        </footer>
+        <!----------------Fin Section Footer ------------------->
+    </div>
+     <!------------------Fin Section Container_Menu --------------------------->
+</body>
+</html>
