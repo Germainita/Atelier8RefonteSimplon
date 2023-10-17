@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="../public/css/header_footer.css">
     <link rel="stylesheet" href="../public/css/valider-acquis.css">
     
+    <!-- Link script popup validation  -->
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="../Formation_Securite/Securite.js"></script>
+    
+
     <script src="../Menu/Menu.js"></script>
     <title>Les articles</title>
 </head>
@@ -350,7 +358,7 @@
                     <div class="container mt-5 mb-5">
                         <h1>Pour toute demande d’informations complémentaires</h1>
                         <p class="fs-4">Vous pouvez consulter <a class="text-danger text-decoration-underline " href="">le site gouvernemental</a> sur la Validation des Acquis de l'Expérience.</p>
-                        <a href="" class="btn btn-danger rounded-3 fw-bold py-2 px-4">Contactez-nous</a>
+                        <a href="../contact/contact.html" class="btn btn-danger rounded-3 fw-bold py-2 px-4">Contactez-nous</a>
                     </div>
                 </section>
                 
@@ -370,8 +378,8 @@
                                 nouvelles Actualités !</p>
                         </div>
                         <div class="Section_Footer_Newsletters_Input">
-                            <input type="text" placeholder="Saisissez Votre e-mail">
-                            <button>S'inscrire</button>
+                            <input type="text" placeholder="Saisissez Votre e-mail" id="email">
+                            <button onclick="inscription()">S'inscrire</button>
                         </div>
                     </div>
                 </div>

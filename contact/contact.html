@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="contact.js"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
 </head>
 <body>
     <!------------------Début Section Container_Menu --------------------------->
@@ -240,7 +244,8 @@
            <div class="Container_action_Contact">
             <h1>Contactez-nous</h1>
            </div>
-           <h4 style="color: white; position: relative; top: -100px;">&nbsp;&nbsp;&nbsp;Acceuil/Contact</h4>
+           <h4 style="color: white; position: relative; top: -100px;">&nbsp;&nbsp;&nbsp;<a href="../accueil/accueil.html" style="text-decoration: none; color: white;">Home</a>/Contact</h4>
+           
            <div class="Container_Contact_Section">
                 <div class="Contact_Section_Left">
                     <div class="Container_image">
@@ -264,8 +269,7 @@
                         Recevoir de la documentation sur les filières professionnelles?
                         Découvrir les formations proposées dans votre région?</p>
                     <p>Veuillez nous contacter :</p>
-                    <p> par téléphone au +33 3 88 48 01 63
-                        ou via le formulaire de contact ci-joint👇</p>
+                    <p> Vous pouvez nous joindre par téléphone au +33 3 88 48 01 63. Si vous préférez un contact en ligne, veuillez remplir le formulaire de contact ci-joint. Nous sommes là pour vous aider à explorer les opportunités passionnantes dans le domaine de la technologie et à trouver la formation qui correspond le mieux à vos aspirations professionnelles.👇</p>
                     <button>CONTACTEZ-NOUS</button>
                 </div>
            </div>
@@ -357,8 +361,8 @@
                               nouvelles Actualités !</p>
                       </div>
                       <div class="Section_Footer_Newsletters_Input">
-                          <input type="text" placeholder="Saisissez Votre e-mail">
-                          <button>S'inscrire</button>
+                          <input type="e-mail" placeholder="Saisissez Votre e-mail" id="email">
+                          <button onclick="inscription()" id="incription1">S'inscrire</button>
                       </div>
                   </div>
               </div>
@@ -396,6 +400,7 @@
         </footer>
         <!----------------Fin Section Footer ------------------->
     </div>
+     <script src="sweetalert2.all.min.js"></script>
      <!------------------Fin Section Container_Menu --------------------------->
 </body>
 </html>

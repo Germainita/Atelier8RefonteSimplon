@@ -20,6 +20,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="Menu.js"></script>
 
+    <!-- Link script popup validation  -->
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="../Formation_Securite/Securite.js"></script>
+    
+
 </head>
 
 <body>
@@ -43,7 +51,7 @@
                 <li class="dropdown">Entreprise&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
                     <!-----------Début Section DropdownMenu qui se deplie------->
                     <div class="dropdown-content">
-                        <a href="../entreprise former ses salariées/salaries .css">Former ces Salariés ?</a>
+                        <a href="../entreprise former ses salariées/salaries.html">Former ces Salariés ?</a>
                         <a href="../entreprise/entreprise.html">Collecte de la tva 2023</a>
                     </div>
                      <!-----------Fin Section DropdownMenu qui se deplie ------------->
@@ -324,7 +332,7 @@
                             au Moyen-Orient ou en Asie le réseau Simplon ne connaît pas de frontières et son essaimage à l’international continue de
                             s’étendre grâce à ses partenaires publics, privés et philanthropiques !
                         </p>
-                        <a href="" type="button" class="btn btn-outline-danger ">Decouvrir simplon a l’international</a>
+                        <a href="../qui_somme_nous/qui_somme_nous.html" type="button" class="btn btn-outline-danger ">Decouvrir simplon a l’international</a>
                     </div>
                     <div class="image-carte-international">
                         <img src="https://simplon.co/storage/34776/responsive-images/international_360_300___medialibrary_original_360_240.jpg" alt="" class="w-100">
@@ -341,7 +349,7 @@
                         entreprises, associations, fondations, etc) qui ont rejoint la communauté et bénéficient ainsi de la méthodologie, des
                         référentiels et de la pédagogie Simplon.co !
                         </p>
-                        <a href="" type="button" class="btn btn-outline-danger ">Ouvrez une fabrique</a>
+                        <a href="../candidats/candidater.html" type="button" class="btn btn-outline-danger ">Ouvrez une fabrique</a>
                     </div>
                     <div class="image-fabrique">
                         <img src="https://simplon.co/storage/2707/conversions/Rendez-vous-des-fabriques-2018-1-thumb.jpg" alt="" class="w-100">
@@ -364,8 +372,8 @@
                                 nouvelles Actualités !</p>
                         </div>
                         <div class="Section_Footer_Newsletters_Input">
-                            <input type="text" placeholder="Saisissez Votre e-mail">
-                            <button>S'inscrire</button>
+                            <input type="text" placeholder="Saisissez Votre e-mail" id="email">
+                            <button onclick="inscription()">S'inscrire</button>
                         </div>
                     </div>
                 </div>

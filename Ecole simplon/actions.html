@@ -6,12 +6,24 @@
     <link rel="stylesheet" href="index .css">
     <link rel="stylesheet" href="../public/css/header_footer.css">
     <link rel="stylesheet" href="Menu.js">
-    <link rel="stylesheet" href="header_footer.css">
+    <!-- <link rel="stylesheet" href="header_footer.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <title>Ecole Simplon</title>
+    <link rel="stylesheet" href="../public/css/article.css">
+    <link rel="stylesheet" href="action .css">
+    
+    <!-- Link script popup validation  -->
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="../Formation_Securite/Securite.js"></script>
+    
+
+
+    <title>Action pour les femmes</title>
     <script src="Menu.js"></script>
 </head>
 <body>
@@ -238,140 +250,192 @@
 
 
 
- <div class="row text-center d-flex justify-content-center"> 
-    <div class="card bg-dark text-white">
-        <img src="./image/Capture d’écran 2023-10-12 101103.png" class="card-img" id="img"/>
-        <div class="card-img-overlay text-center mt-5">
-          <h1 class="card-title mb-2">Nos Actions pour les Femmes</h1>
-                    <p class="card-text mt-5">
-                        Déterminé.e à favoriser la (trans)formation numérique, inclusive et solidaire, Simplon mène des actions <br> en faveur de la valorisation des femmes dans la tech depuis sa création en 2013.
-                    </p>
+    <!---------------Debut Section de votre Contenu ------------------>
+    <div class="banierre">
+      <div class="title text-center mb-5">
+          <h1 class="card-title mb-2">Nos Actions pour les Femmes </h1>
+          <p class="card-text">
+            Déterminé.e à favoriser la (trans)formation numérique, inclusive et solidaire, Simplon mène des actions <br> en faveur de la valorisation des femmes dans la tech depuis sa création en 2013.
+          </p>
+      </div>
+      
+      <p class="card-text chemin fs-4 fw-bold ms-4"><a href="../accueil/accueil.html">Home </a> <span> / Actions pour les femmes</span></p>
+      
+    </div>
+
+    <!-- Code women  -->
+    <div class="container">
+      <div class="codewomen mt-5 mb-4">
+        <div class="row">
+          <div class="col-md-6 image">
+            <img src="https://simplon.co/storage/2314/responsive-images/pagefemme2-1___medialibrary_original_912_420.jpg" class="img-fluid rounded-start">
+          </div>
+          <div class="col-md-6">
+            <div class="card text shadow">
+              <div class="card-body">
+                <h6 class="card-title">#Code has no GenderIn Women we trust</h6>
+                <p class="card-text">Avec 42% d’apprenantes dans nos formations aujourd'hui, Simplon s'est engagée à atteindre la parité. Avec cette ambition, nous avons déployé une stratégie globale et associative pour déconstruire les stéréotypes de genre dans le numérique.</p>
+                <p class="card-text">Avec 42% d’apprenantes dans nos formations aujourd'hui, Simplon s'est engagée à atteindre la parité. Avec cette ambition, nous avons déployé une stratégie globale et associative pour déconstruire les stéréotypes </p>
+            </div>
+            </div>
+          </div>
         </div>
+        
+      </div>
     </div>
-    <div class="col-md-4 mt-5">
-        <img src="https://simplon.co/storage/2314/responsive-images/pagefemme2-1___medialibrary_original_912_420.jpg" class="img-fluid rounded-start" id="ima">
-    </div>
-      <div class="card text shadow p-3 mb-5 mt-5" style="max-width: 21rem; height: 15.5rem; ">
-        <div class="card-body">
-          <h6 class="card-title">#Code has no GenderIn Women we trust</h6>
-          <p class="card-text">Avec 42% d’apprenantes dans nos formations aujourd'hui, Simplon s'est engagée à atteindre la parité. Avec cette ambition, nous avons déployé une stratégie globale et associative pour déconstruire les stéréotypes de genre dans le numérique.</p>
+    
+    <!-- Impact  -->
+    <section>
+      <div  id="contain-impact">  
+          <div class="banner-container">
+              <div class="contain-chiffre-impact">
+                  <div class="chiffre-impact">
+                      <h1 class="text-danger text-center mt-2">25 000 <i class="bi bi-plus"></i></h1>
+                      <p class="text-dark text-center">Simplonien.nes dans le monde</p>
+                  </div>
+                  <div class="chiffre-impact">
+                      <h1 class="text-danger text-center mt-2">37,6 %</h1>
+                      <p class="text-dark text-center">d'apprenantes dans nos formations</p>
+                  </div>
+                  <div class="chiffre-impact" id="chiffre-except">
+                      <h1 class="text-danger text-center mt-2">69 %</h1>
+                      <p class="text-dark text-center">taux de sorties positives</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <div class="container mt-5">
+      <!-- Formations hackeuse  -->
+      <div class="row hackeuse">
+        <div class="col-md-6">
+          <img src="https://femmes.simplon.co/uploads/Logos%20mini%20site%20Femmes/formation-Hackeuses-Simplon.png" class="img-fluid rounded-start">
+
+        </div>
+        <div class="col-md-6">
+          <h4 class="card-title fs-3 mb-2">Nos formations #Hackeuses</h6>
+            <p class="fs-4">En Île-de-France, ce projet est cofinancé par le Fonds Social Européen </h4>
+            <p class=" fs-4">Pour donner aux femmes l’envie d’appartenir au monde de la tech, Simplon a mis en place ses formations #Hackeuses. 6 semaines gratuites et 100% féminines pour :s’initier au web découvrir les métiers du numérique être accompagnée dans son orientation professionnelle.</p>
+        </div>
+        <div class="text-center mt-5">
+          <a href="../Formation_Securite/Blockchain.html" class="btn border-danger -pill mb-5 text-danger" style="width: 320px;">DECOUVRIR LA FORMATION HACKEUSES</a>
         </div>
       </div>
- </div>
- <section>
-    <div  id="contain-impact">  
-        <div class="banner-container">
-            <div class="contain-chiffre-impact">
-                <div class="chiffre-impact">
-                    <h1 class="text-danger text-center mt-2">25 000 <i class="bi bi-plus"></i></h1>
-                    <p class="text-dark text-center">Simplonien.nes dans le monde</p>
-                </div>
-                <div class="chiffre-impact">
-                    <h1 class="text-danger text-center mt-2">37,6 %</h1>
-                    <p class="text-dark text-center">d'apprenantes dans nos formations</p>
-                </div>
-                <div class="chiffre-impact" id="chiffre-except">
-                    <h1 class="text-danger text-center mt-2">69 %</h1>
-                    <p class="text-dark text-center">taux de sorties positives</p>
-                </div>
-            </div>
+      <!-- Fin formation hackeuse  -->
+
+      <!-- demarrons tech  -->
+      <div class="tech mb-5">
+        <div class="card border-0 ">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Dégenrons la Tech</h5>
+            <p class="card-text ">Des ateliers à destination des salarié·e·s d’entreprises qui ont pour objectifs de : <br>
+              sensibiliser les collaborateur·rice·s au rôle des femmes dans la tech;<br>
+              identifier les pistes d’amélioration; <br>
+              concevoir des solutions pour résoudre le problème de sous-représentativité des femmes</p>
+          </div>
         </div>
-    </div>
-</section>
-<div class="row d-flex justify-content-center">
-    <div class="col-md-4 mt-5">
-        <img src="https://femmes.simplon.co/uploads/Logos%20mini%20site%20Femmes/formation-Hackeuses-Simplon.png" class="img-fluid rounded-start" id="image">
-    </div>
-      <div class="card text  mb-5 mt-5 border-0" style="max-width: 18rem; height: 15.5rem; ">
-        <div class="card-body ">
-          <h6 class="card-title">Nos formations #Hackeuses</h6>
-          <p class="card-text ">En Île-de-France, ce projet est cofinancé par le Fonds Social Européen
-            Pour donner aux femmes l’envie d’appartenir au monde de la tech, Simplon a mis en place ses formations #Hackeuses. 6 semaines gratuites et 100% féminines pour :s’initier au web découvrir les métiers du numérique être accompagnée dans son orientation professionnelle.</p>
+        <div class="text-center mt-2">
+          <a href="#" class="btn border-danger -pill mb-5 text-danger " style="width: 250px; height: 35px;">Découvrez les ateliers</a>
         </div>
       </div>
-</div>
-<div class="text-center mt-5">
-    <a href="#" class="btn border-danger -pill mb-5 text-danger" style="width: 320px;">DECOUVRIR LA FORMATION HACKEUSES</a>
-  </div>
-  <div class="card w-80  border-0 ">
-    <div class="card-body text-center">
-      <h5 class="card-title text-center">Dégenrons la Tech</h5>
-      <p class="card-text ">Des ateliers à destination des salarié·e·s d’entreprises qui ont pour objectifs de : <br>
-        sensibiliser les collaborateur·rice·s au rôle des femmes dans la tech;<br>
-        identifier les pistes d’amélioration; <br>
-        concevoir des solutions pour résoudre le problème de sous-représentativité des femmes</p>
-    </div>
-  </div>
-  <div class="row d-flex justify-content-center">
-    <div class="text-center mt-5">
-    <a href="#" class="btn border-danger -pill mb-5 text-danger " style="width: 250px; height: 35px;">Découvrez les ateliers</a>
-  </div>
-  <div class="col-6 shadow p-3  " style="width: 25rem;">
-    <img src="https://simplon.co/storage/1924/responsive-images/initiation-kids%281%29___medialibrary_original_679_437.png" class="card-img-top" alt="...">
-    <div class="card-body text-center">
-      <p class="card-text"> <h6>Initiation Kids</h6>Changer les mentalités sur la place des femmes dans le numérique passe aussi par l’éducation, c’est pourquoi Simplon met en place des actions de sensibilisation pour initier les filles et les garçons au code et prévenir les biais de genre dans l’orientation scolaire et professionnelle.
-    </p>
-    </div>
-  </div>
-  <div class="card text  mb-5 border-0" style="max-width: 18rem; height: 15.5rem; ">
-    <div class="card-body ">
-      <h6 class="card-title">Nos actions de plaidoyer</h6>
-      <p class="card-text ">Au-delà de ses actions pour les apprenantes, les entreprises et les professionnelles de l’accompagnement socio-professionnel, Simplon s’implique aussi dans des actions de communication et de plaidoyer pour faire connaître les enjeux sociétaux économiques de la formation des femmes aux métiers techniques du numérique #Makeuses, un appel à projets annuel 100% féminin
-        une participation forte à des actions publiques : tables rondes, hackathon, livre blanc….</p>
-    </div>
-  </div>
-  </div>
-  <div class="text-center mt-5">
-    <a href="#" class="btn border-danger -pill mb-5 text-danger " style="width: 320px">Action de communication et de plaidoyer</a>
-  </div>
-  <footer>
-    <div class="Footer_Container">
-    <br><br>
-        <!---------------- Debut Section Newsletters ------------->
-        <div class="Section_Footer_Newsletters">
-            <div class="Section_Footer_Containt">
-                <div class="Section_Footer_Newsletters_Text">
-                    <h2>Inscrivez-Vous a la NewsLetters</h2>
-                    <p>Inscrivez-vous recevoir toutes les
-                        nouvelles Actualités !</p>
-                </div>
-                <div class="Section_Footer_Newsletters_Input">
-                    <input type="text" placeholder="Saisissez Votre e-mail">
-                    <button>S'inscrire</button>
-                </div>
+
+      <!-- Action de plaidoyer -->
+      <div class="plaidoyer">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card shadow border-0">
+              <img src="https://simplon.co/storage/1924/responsive-images/initiation-kids%281%29___medialibrary_original_679_437.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+               
+                  <h6 class="card-text" >Initiation Kids</h6>
+                  <p>Changer les mentalités sur la place des femmes dans le numérique passe aussi par l’éducation, c’est pourquoi Simplon met en place des actions de sensibilisation pour initier les filles et les garçons au code et prévenir les biais de genre dans l’orientation scolaire et professionnelle. </p>
+                
+              </div>
             </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-5 border-0">
+              <div class="card-body ">
+                <h6 class="card-title fs-3">Nos actions de plaidoyer</h6>
+                <p class="card-text fs-4">Au-delà de ses actions pour les apprenantes, les entreprises et les professionnelles de l’accompagnement socio-professionnel,</p>
+                <p  class="card-text fs-4">Simplon s’implique aussi dans des actions de communication et de plaidoyer pour faire connaître les enjeux sociétaux économiques de la formation des femmes aux métiers techniques du numérique #Makeuses, un appel à projets annuel 100% féminin
+                  une participation forte à des actions publiques : tables rondes, hackathon, livre blanc….</p>
+              </div>
+            </div>            
+          </div>
+          <div class="text-center mt-5">
+            <a href="#" class="btn border-danger -pill mb-5 text-danger " style="width: 320px">Action de communication et de plaidoyer</a>
+          </div>
         </div>
-        <!--------------- Fin Section Newsletters --------------->
-        <div class="Section_Footer">
-            <div class="Section_Footer_logo">
-                <h3><img src="../public/images/Menu_Footer/logo.png" alt="">&nbsp;Simplon.co</h3>
-                <p>Simplon Sénégal vous forme aux métiers du numérique, développement web et mobile, digitalisation</p>
-                <span><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i></span>
-            </div>
-            <div>
-                <h3>Liens Utiles</h3>
-                <p><a href="">Simplon Fondation</a></p>
-                <p><a href="">Candidater</a></p>
-                <p><a href="">Ecosystème et partenaires</a></p>
-            </div>
-            <div>
-                <h3>FAQ</h3>
-                <p><a href="">Qui sommes nous ?</a></p>
-                <p><a href="">Anti FAQ</a></p>
-                <p><a href="">Notre pédagogie</a></p>
-            </div>
-            <div>
-                <h3>Autre</h3>
-                <p><a href="">Contact</a></p>
-                <p><a href="">Mention légale</a></p>
-                <p><a href="">Accesssibilité</a></p>
-            </div>  
-        </div>
-        <br><br>
-        <hr style="width: 80%; margin: auto;">
-        <p class="Copyright">Copyright &nbsp;<i class="fa-solid fa-copyright"></i> &nbsp;2023 Simplon Education.</p>
-        <br>
+      </div>
+
+      <!-- Sponsor  -->
+      <div class="sponsor d-flex justify-content-between mt-5 mb-4">
+        <img src="https://campagne.simplon.co/hs-fs/hubfs/1-Dec-12-2022-01-37-10-0510-PM.png?width=912&height=203&name=1-Dec-12-2022-01-37-10-0510-PM.png" class="card-img-top" alt="...">
+        <img src="https://campagne.simplon.co/hs-fs/hubfs/2-Dec-12-2022-01-37-36-7233-PM.png?width=861&height=288&name=2-Dec-12-2022-01-37-36-7233-PM.png" class="card-img-top" alt="...">
+        <img src="https://campagne.simplon.co/hs-fs/hubfs/3-Dec-12-2022-01-37-58-5310-PM.png?width=846&height=196&name=3-Dec-12-2022-01-37-58-5310-PM.png" class="card-img-top" alt="...">
+        <img src="https://campagne.simplon.co/hs-fs/hubfs/4-Dec-12-2022-01-38-24-2883-PM.png?width=826&height=178&name=4-Dec-12-2022-01-38-24-2883-PM.png" class="card-img-top" alt="...">
+        <img src="https://campagne.simplon.co/hs-fs/hubfs/5-Dec-12-2022-01-38-44-4898-PM.png?width=890&height=228&name=5-Dec-12-2022-01-38-44-4898-PM.png" class="card-img-top" alt="...">
+        <img src="https://campagne.simplon.co/hs-fs/hubfs/Sans%20titre%20(23).png?width=905&height=290&name=Sans%20titre%20(23).png" class="card-img-top" alt="...">
+        <img src="https://campagne.simplon.co/hs-fs/hubfs/Sans%20titre%20(20).png?width=726&height=210&name=Sans%20titre%20(20).png" class="card-img-top" alt="...">
+        <img src="https://campagne.simplon.co/hs-fs/hubfs/8-4.png?width=815&height=188&name=8-4.png" class="card-img-top" alt="...">
     </div>
-</footer>
+
+    </div>
+  
+  <!------------Fin Section de votre Contenu ------------------>
+        <!---------------- Debut Section Footer ---------------------->
+        <footer>
+          <div class="Footer_Container">
+          <br><br>
+              <!---------------- Debut Section Newsletters ------------->
+              <div class="Section_Footer_Newsletters">
+                  <div class="Section_Footer_Containt">
+                      <div class="Section_Footer_Newsletters_Text">
+                          <h2>Inscrivez-Vous a la NewsLetters</h2>
+                          <p>Inscrivez-vous recevoir toutes les
+                              nouvelles Actualités !</p>
+                      </div>
+                      <div class="Section_Footer_Newsletters_Input">
+                        <input type="text" placeholder="Saisissez Votre e-mail" id="email">
+                        <button onclick="inscription()">S'inscrire</button>
+                    </div>
+                  </div>
+              </div>
+              <!--------------- Fin Section Newsletters --------------->
+              <div class="Section_Footer">
+                  <div class="Section_Footer_logo">
+                      <h3><img src="../public/images/Menu_Footer/logo.png" alt="">&nbsp;Simplon.co</h3>
+                      <p>Simplon Sénégal vous forme aux métiers du numérique, développement web et mobile, digitalisation</p>
+                      <span><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i></span>
+                  </div>
+                  <div>
+                      <h3>Liens Utiles</h3>
+                      <p><a href="../simplon-fondation/simplon-fondation.html">Simplon Fondation</a></p>
+                      <p><a href="../candidats/candidater.html">Candidater</a></p>
+                      <p><a href="../ecosystem_partenaire/ecosystem_patenaire.html">Ecosystème et partenaires</a></p>
+                  </div>
+                  <div>
+                      <h3>FAQ</h3>
+                      <p><a href="../qui_somme_nous/qui_somme_nous.html">Qui sommes nous ?</a></p>
+                      <p><a href="../anti_faq/antifaq.html">Anti FAQ</a></p>
+                      <p><a href="../pedagogie_simplon/pedagogie.html">Notre pédagogie</a></p>
+                  </div>
+                  <div>
+                      <h3>Autre</h3>
+                      <p><a href="../contact/contact.html">Contact</a></p>
+                      <p><a href="../mention_legale/mention.html">Mention légale</a></p>
+                      <p><a href="../accessibile/accessibilite.html">Accesssibilité</a></p>
+                  </div>  
+              </div>
+              <br><br>
+              <hr style="width: 80%; margin: auto;">
+              <p class="Copyright">Copyright &nbsp;<i class="fa-solid fa-copyright"></i> &nbsp;2023 Simplon Education.</p>
+              <br>
+          </div>
+      </footer>
+      <!----------------Fin Section Footer ------------------->
+  
 </body>
 </html>

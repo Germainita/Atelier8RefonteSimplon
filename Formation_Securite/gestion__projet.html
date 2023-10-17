@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="Securite.js"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
 </head>
 <body>
     <!------------------Début Section Container_Menu --------------------------->
@@ -32,7 +36,7 @@
               <li class="dropdown">Entreprise&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
                   <!-----------Début Section DropdownMenu qui se deplie------->
                   <div class="dropdown-content">
-                      <a href="../entreprise former ses salariées/salaries .css">Former ces Salariés ?</a>
+                      <a href="../entreprise former ses salariées/salaries.html">Former ces Salariés ?</a>
                       <a href="../entreprise/entreprise.html">Collecte de la tva 2023</a>
                   </div>
                    <!-----------Fin Section DropdownMenu qui se deplie ------------->
@@ -240,7 +244,7 @@
                 
             </div>
             <div class="Container_h">
-              <h4>&nbsp;&nbsp;&nbsp;Acceuil/Nos Offres</h4>
+              <h4>&nbsp;&nbsp;&nbsp;<a href="../accueil/accueil.html" style="text-decoration: none; color: white;">Home/</a>Nos Offres</h4>
               <h3>&nbsp;&nbsp;&nbsp;Toutes les Session Ouvertes</h3>
              </div>
 
@@ -273,9 +277,9 @@
                               nouvelles Actualités !</p>
                       </div>
                       <div class="Section_Footer_Newsletters_Input">
-                          <input type="text" placeholder="Saisissez Votre e-mail">
-                          <button>S'inscrire</button>
-                      </div>
+                        <input type="text" placeholder="Saisissez Votre e-mail" id="email">
+                        <button onclick="inscription()">S'inscrire</button>
+                    </div>
                   </div>
               </div>
               <!--------------- Fin Section Newsletters --------------->
