@@ -13,7 +13,7 @@
 }
 /* stylisation de la baniere */
 
-.banierre {
+/* .banierre {
     background-image: url('../images/article/banierre.PNG');
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +26,7 @@
 
 .banierre h1 {
     font-size: 9vh;
-}
+} */
 /* stylisation de la premiere section */
 .grid-contain-pedagogie{
     /* border: 2px solid; */
