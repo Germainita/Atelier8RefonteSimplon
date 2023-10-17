@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engagement</title>
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="../public/css/qui_somme_nous.css">
+    <link rel="stylesheet" href="../public/css/formation-partenaire.css">
+    <link rel="stylesheet" href="../public/css/engagement_qualite.css">
+    <link rel="stylesheet" href="../public/css/header_footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="Menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!------------------Début Section Container_Menu --------------------------->
+    <div class="Container_Menu">
+        <!------------------Debut Section Prémier Menu-------------------------> 
+        <div class="FirstMenu">
+            <ul>
+                <li><a href="../accueil/accueil.html"><img src="../public/images/Menu_Footer/logo.png" alt="">Simplon.co</a></li>
+                <li class="dropdown">A-propos&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                    <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="../qui_somme_nous/qui_somme_nous.html">Qui Somme Nous ?</a>
+                        <a href="../pedagogie_simplon/pedagogie.html">Notre Pedagogie</a>
+                        <a href="../reseau _fabrique/reseau_fabrique.html">Notre Reseaux de Fabrique</a>
+                        <a href="../numerique_inclusif/numerique_inclusif.html">Un Numérique Inclusif</a>
+                        <a href="../anti_faq/antifaq.html">Anti-FAQ</a>
+                    </div>
+                    <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li class="dropdown">Entreprise&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                    <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="../entreprise former ses salariées/salaries.html">Former ces Salariés ?</a>
+                        <a href="../entreprise/entreprise.html">Collecte de la tva 2023</a>
+                    </div>
+                     <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li class="dropdown">Alternance&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i>
+                     <!-----------Début Section DropdownMenu qui se deplie------->
+                    <div class="dropdown-content">
+                        <a href="../faire ma formation en alternance/faire formation.html">Faire ma formation en alternance</a>
+                        <a href="../Recruter en alternance/recruter.html">Recruter en Alternance</a>
+                    </div>
+                     <!-----------Fin Section DropdownMenu qui se deplie ------------->
+                </li>
+                <li><a href="../devenir_formateur/Devenir_Formateur.html" style="text-decoration: none; color: white;">Devenir Formateur</a></li>
+                <li class="Social_Media"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i></li>
+                <!-- <span><i class="fa-solid fa-bars iconeBarLeft"id="cach1" style="font-size: 30px;" ></i></span> -->
+                <i class="fa-solid fa-bars iconeBarRight" id="cach" style="font-size: 30px;" onclick="afficher()"></i>
+               
+            </ul>
+        </div>
+        <!------------------------ Fin Section Prémier Menu --------------------->
+        <!------------------------Début Section Sidebar Bar Accordion --------------------->
+        <div id="MenuSec">
+            <br><br>
+            <div class="accordion accordion-flush" id="">
+                <!-- Formations  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Formation
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="../Formation_Securite/Securite.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Infrastructure & Cybersécurité</li></a>
+                            <a href="../Formation_Securite/developpement_detail.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Développement d'Application</li></a>
+                            <a href="../Formation_Securite/fondamentaux_numerique.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Fondamentaux Numérique</li></a>
+                            <a href="../Formation_Securite/gestion__projet.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Gestion de projet Agile</li></a>
+                            <a href="../Formation_Securite/cloud_ops.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Cloud & DevOps</li></a>
+                            <a href="../Formation_Securite/intelligence.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Data & Intelligence Artificielle</li></a>
+                            <a href="../Formation_Securite/metavers.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Métavers & XR</li></a>
+                            <a href="../Formation_Securite/Blockchain.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Blockchain</li></a>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Candidats  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Candidats
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="../candidats/candidater.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Candidater</li></a>
+                            <a href="../candidats/valider-acqui.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Valider ses acquis par la VAE</li></a>
+                            <a href="../Ecole simplon/actions.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les femmes</li></a>
+                            <a href="../candidats/handicap.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Personne en situation de handicap</li></a>
+                            <a href="../nos_actions/action.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Nos Actions pour les refugiés et les ressortissants non européens</li></a>
+                           </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Blog  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Blog
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                       <ul>
+                          <a href="../blog/article.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Article</li></a>
+                          <a href="../blog/presse.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Presse</li></a>
+                       </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- A propos  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwoTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoTwo" aria-expanded="false" aria-controls="flush-collapseTwoTwo">
+                        A-Propos
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwoTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="../qui_somme_nous/qui_somme_nous.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Qui Somme Nous ?</li></a>
+                              <a href="../pedagogie_simplon/pedagogie.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Pedagogie</li></a>
+                              <a href="../reseau _fabrique/reseau_fabrique.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Notre Reseaux de Fabrique</li></a>
+                              <a href="../numerique_inclusif/numerique_inclusif.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Un Numérique Inclusif</li></a>
+                              <a href="../anti_faq/antifaq.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Anti-FAQ</li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- Entreprise  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEntreprise">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEntreprise" aria-expanded="false" aria-controls="flush-collapseEntreprise">
+                        Entreprise
+                      </button>
+                    </h2>
+                    <div id="flush-collapseEntreprise" class="accordion-collapse collapse" aria-labelledby="flush-headingEntreprise" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="../entreprise former ses salariées/salaries.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Former ses Salariés ?</li></a>
+                              <a href="../entreprise/entreprise.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Collecte de la Tva 2023</li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- Alternance  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingAlternance">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAlternance" aria-expanded="false" aria-controls="flush-collapseAlternance">
+                        Alternance
+                      </button>
+                    </h2>
+                    <div id="flush-collapseAlternance" class="accordion-collapse collapse" aria-labelledby="flush-headingAlternance" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul>
+                              <a href="../faire ma formation en alternance/faire formation.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Faire ma formation en Alternance</li></a>
+                              <a href="../Recruter en alternance/recruter.html" style="text-decoration: none; color: black; cursor: pointer;"><li>Recruter en Alternance/li></a>
+                             </ul>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+            <ul>
+                <li><span onclick="cacher()" id="X_Bar"><i class="fa-solid fa-x"></i></span></li>
+            </ul>
+        </div>
+        <!-------------------------Fin Section Sidebar Bar Accordion ----------------------->
+        <!-------------------------- Début Section SecondMenu ---------------------------->
+        <div class="SecondMenu">
+            <div class="SecondMenu_Image">
+                <a href="../accueil/accueil.html"><img src="../public/images/Menu_Footer/simplon (1).png" alt=""></a>
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/formation-removebg-preview.png" alt="">
+                <div>
+                    <h6>Formation&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Decouvrir nos Formation</span>
+                </div>
+                <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="../formation_securite/Securite.html">Infrastrurcute & Cybersécurité</a>
+                    <a href="../formation_securite/developpement_detail.html">Développement d'application</a>
+                    <a href="../formation_securite/fondamentaux_numerique.html">Fondamentaux numérique</a>
+                    <a href="../formation_securite/gestion__projet.html">Gestion de projet agile</a>
+                    <a href="../formation_securite/cloud_ops.html">Cloud & Devops</a>
+                    <a href="../formation_securite/intelligence.html">Data & Intelligence Artificielle</a>
+                    <a href="../formation_securite/metavers.html">Métavers & XR</a>
+                    <a href="../formation_securite/Blockchain.html">Blockchain</a>
+                </div>
+                <!-----------------Fin Sous Menu----------------->
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/candidat-removebg-preview.png" alt="" style="max-width: 60px; height: 50px;">
+                <div>
+                    <h6>Candidats&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Lire nos derniers Articles</span>
+                </div>
+                 <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="../candidats/candidater.html">Candidater</a>
+                    <a href="../candidats/valider-acqui.html">Valider ses acquis par la VAE</a>
+                    <a href="../Ecole simplon/actions.html">Nos actions pour les femmes</a>
+                    <a href="../candidats/handicap.html">Personnes en situation de handicap</a>
+                    <a href="../nos_actions/action.html">Nos actions pour les refugiés et ressortissants non européens</a>
+                </div>
+                 <!-----------------Fin Sous Menu----------------->
+            </div>
+            <div class="SecondMenu_Formation">
+                <img src="../public/images/Menu_Footer/blog-removebg-preview.png" alt="">
+                <div>
+                    <h6>Blog&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></h6>
+                    <span>Lire nos derniers Articles</span>
+                </div>
+                 <!-----------------Debut Sous Menu----------------->
+                <div class="dropdown-content_SecondMenu">
+                    <a href="../blog/article.html">Article</a>
+                    <a href="../blog/presse.html">Presse</a>
+                </div>
+                 <!-----------------Fin Sous Menu----------------->
+            </div>
+        </div>
+        <!---------------Fin Section du Second Menu --------------------------->
+
+        
+
+        <!---------------Debut Section de votre Contenu ------------------>
+        <div class="Votre_Contenu_ici">
+            <div class="banierre">
+                <div class="title text-center mb-5 py-4">
+                    <h1 class="card-title mb-2">RSE. Simplon.co</h1>
+                </div>
+                <p class="card-text chemin fs-4 fw-bold "><a href="../accueil/accueil.html" class="text-white text-decoration-none">Home</a> <span> /
+                        Apropos / qui somme nous/ Engagement</span></p>
+            </div>
+            <!-- debut de la premiere section -->
+            <section>
+                <div class="container mb-5  mt-5">
+                    <h3 class="text-center ">Nos engagements</h3>
+                    <span class="soulignement"></span>
+                    <p class="text-center ">
+                        Convaincue que notre agrément ESUS et notre appartenance à l'Économie Sociale et Solidaire sont nécessaires mais pas
+                        suffisantes pour faire de nous une entreprise responsable, Simplon.co a structuré une véritable démarche de RSE -
+                        Responsabilité Sociétale des Entreprises - et créé un pôle dédié à la RSE. Zoom sur nos principaux engagements.
+                    <div class="text-center">
+                        <a href="https://simplon.co/uploads/Site%20national/Articles-site-nationale/Rapport%20RSE%20-%20Communication%20sur%20le%20progr%C3%A8s.pdf?_t=1625752255" class="btn btn-outline-danger fw-bold"><i class="bi bi-download"></i>&nbsp;  Telecharger le rapport RSE</a>
+                    </div>
+                </div>
+            </section>
+            <!-- debut section slider -->
+            <section>
+                <div class="container mt-5 mb-5 ">
+                    <div class="grid-contain-histoire">
+                        <div class="histoire-img py-5 px-4">
+                            <img src="../public/images/engagement/Label.png" alt="" class="w-100 h-100">
+                        </div>
+                        <div class="histoire-slider py-5">
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active py-5 px-5">
+                                        <h4>Une démarche reconnue par des labels</h4>
+                                        <h6 class="text-danger ">2014 : Obtention de l’agrément ESUS</h6>
+                                        <p>
+                                            Lors de sa création Simplon.co, a décidé de mettre la poursuite de sa mission d'intérêt général au centre de son
+                                            activité. Avec l'inscription de ces actions dans ces statuts, cela a permis d'obtenir l'agrément ESUS dès 2014.
+                                            
+                                            Simplon.co est l’une des premières entreprises à obtenir cet agrément. Il s’inscrit dans le cadre de la loi sur
+                                            l’économie sociale et solidaire de 2014 ayant pour objectif de créer un écosystème favorable au développement des
+                                            entreprises solidaires. Cet agrément est la boussole de notre entreprise.
+                                            Avec cet agrément Simplon.co doit respecter plusieurs critères :
+                                            inscription d’une mission d’utilité sociale dans nos statuts ;
+                                            prouver que la recherche d’utilité sociale a un impact soit sur le compte de résultat, soit sur la rentabilité de
+                                            l’entreprise ;
+                                        </p>
+                                    </div>
+                                    <div class="carousel-item py-5 px-5">
+                                        <h4>Une démarche  reconnue par des labels</h4>
+                                        <h6 class="text-danger ">2016 : renouvellement de l’agrément ESUS</h6>
+                                        <p>
+                                            Toujours dans le but d’avoir un impact sur la société, Simplon a décidé de renouveler son agrément ESUS. Cet agrément a
+                                            une durée de validité de 5 ans.
+                                        </p>
+                                    </div>
+                                    <div class="carousel-item py-5 px-5">
+                                        <h4>Une démarche  reconnue par des labels</h4>
+                                        <h6 class="text-danger ">2016 - 2017</h6>
+                                        <p>
+                                            Dans un souci de structuration de sa politique RSE, Simplon.co s’est orienté vers le référentiel du label Lucie 26 000.
+                                            Le label Lucie 26000, label d’engagement est aligné sur la norme ISO 26000, norme la plus répandue en matière de
+                                            gouvernance de la RSE. Il est organisé de 7 questions centrales : la gouvernance, les Droits humains, la loyauté des
+                                            pratiques, questions relatives aux consommateur.ice.s, relations et conditions de travail, développement local et
+                                            intérêt général, l’environnement.
+                                            
+                                            Dans ses conclusions rendues le 24 octobre 2019, le comité de labellisation a souligné : “la maturité et la qualité des
+                                            pratiques RSE et ESS de Simplon, qui se transcrivent progressivement dans des processus formalisés et documentés et donc
+                                            pérennes”. A l’issue de cet audit, notre plan d’action est composé de 30 objectifs, 43 livrables, le tout à produire,
+                                            mettre en place et atteindre dans les prochains mois d’ici à l’automne 2022. Notre suivi est réalisé par un comité de
+                                            pilotage trimestriel, qui publie et diffuse ces avancées en interne mais aussi en externe (via ce site internet).
+            
+                                        </p>
+                                    </div>
+                                    <div class="carousel-item py-5 px-5">
+                                        <h4>Une démarche  reconnue par des labels</h4>
+                                        <h6 class="text-danger ">Octobre 2019 : Obtention du label Lucie 2600 ( avec maintien du label en mars 2021)</h6>
+                                        <p>
+                                            Juin 2020 : Adhésion au Global Compact
+                                            A travers ses différents labels et démarches (label Lucie 26000, agrément ESUS), Simplon.co montre son engagement en
+                                            faveur du développement durable. Convaincue que les entreprises et les organisations à but non lucratif ont un rôle à
+                                            jouer dans la construction d’un monde plus responsable et plus inclusif, et par ailleurs, souhaitant contribuer à la
+                                            promotion des valeurs du développement durable ,le Global Compact offre un cadre universel internationalement reconnu.
+                                            Le Global Compact est un cadre construit autour de 10 principes relatifs aux Droits humains, normes internationales du
+                                            travail, l’environnement et la lutte contre la corruption.
+                                            
+                                            Novembre 2021 : Renouvellement de l'agrément ESUS
+                                            Simplon qui s’inscrit, depuis sa création et a été une des premières ESUS de France dès septembre 2014, dans le champ de
+                                            l'Économie Sociale et Solidaire et également au service de l’intérêt général via ses véhicules Simplon Foundation et
+                                            Simplon Asso.
+            
+                                        </p>
+                                    </div>
+                                    <div class="carousel-item py-5 px-5">
+                                        <h4>Une démarche  reconnue par des labels</h4>
+                                        <h6 class="text-danger ">Juin 2020 : Adhésion au Global Compact</h6>
+                                        <p>
+                                            A travers ses différents labels et démarches (label Lucie 26000, agrément ESUS), Simplon.co montre son engagement en
+                                            faveur du développement durable. Convaincue que les entreprises et les organisations à but non lucratif ont un rôle à
+                                            jouer dans la construction d’un monde plus responsable et plus inclusif, et par ailleurs, souhaitant contribuer à la
+                                            promotion des valeurs du développement durable ,le Global Compact offre un cadre universel internationalement reconnu.
+                                            Le Global Compact est un cadre construit autour de 10 principes relatifs aux Droits humains, normes internationales du
+                                            travail, l’environnement et la lutte contre la corruption.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="contain-icone">
+                                    <div id="test">
+                                        <a class="" href="#carouselExampleFade " role="button" data-slide="prev">
+                                            <span aria-hidden="true" id="icon-left"><i
+                                                    class="bi bi-chevron-double-left carousel-control-prev text-danger fw-bold "
+                                                    href="#carouselExampleFade" role="button" data-slide="prev"></i></span>
+                                        </a>
+            
+                                    </div>
+                                    <a class="" href="#carouselExampleFade" role="button" data-slide="next">
+                                        <span class="" aria-hidden="true" id="icon-right"><i
+                                                class="bi bi-chevron-double-right carousel-control-next"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Debut section realisations -->
+            <section>
+                <div class="container">
+                    <h3 class="text-center ">Nos réalisations</h3>
+                    <span class="soulignement"></span>
+                    <div class="grid-contain-realisation">
+                        <div class="paragraphe-left">
+                            <h3 class="text-center fw-bold ">En 2016</h3>
+                            <h5 class="text-center fw-bold ">Participation financière dans l’entreprise adaptée Numerik EA</h5>
+                            <p>Numerik EA est une entreprise adaptée proposant l’accompagnement dans la création de site web (accessible et éco-conçu),
+                            des audits RGPD, du conseil. Numerik EA a déjà travaillé avec l’ADEME, la Métropole du Grand Paris, SciencesPo.</p>
+                        </div>
+                        <div class="paragraphe-right">
+                            <h3 class="text-center fw-bold ">En 2020</h3>
+                            <h5 class="text-center fw-bold ">Création d’un fonds de dotation afin d'augmenter notre impact social.</h5>
+                            <p>
+                                Une des premières actions du fonds de dotation a été de distribuer plus de
+                                20 000 tablettes aux personnels soignants pendant le premier confinement de mars.
+                                99 sur 100 indice égalité professionnelle H/F (indice Pénicaud) depuis 2019 : 31 jours de congés paternité
+                                62,8% de femmes au sein de nos effectifs
+                                57,5% de femmes parmi nos managers
+                                97% de notre parc informatique est commandé chez Ecodair,
+                                ESAT qui reconditionne les ordinateurs, ainsi 96 tonnes équivalent CO2 évitées grâce à ces achats,
+                                soit 96 allers-retour Paris-New-York.
+                                Ces commandes ont permis de créer 768 jours de maintien dans l’emploi de personnes en situation de handicap chez notre
+                                fournisseur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Debut chiffre cle -->
+            <section class="mt-5">
+                <h3 class="text-center ">Chiffres clés</h3>
+                <span class="soulignement"></span>
+                <div id="contain-impact">
+                    <div class="banner-container">
+                        <div class="contain-chiffre-impact">
+                            <div class="chiffre-impact">
+                                <h1 class="text-white text-center mt-2 ms-2">99/100</h1>
+                                <p class="text-white text-center fs-5" id="text">indice égalité professionnelle H/F (indice Pénicaud)</p>
+                            </div>
+                            <div class="chiffre-impact">
+                                <h1 class="text-white text-center mt-2">31</h1>
+                                <p class="text-white text-center fs-5">jours de congés paternité depuis 2019</p>
+                            </div>
+                            <div class="chiffre-impact" id="chiffre-except">
+                                <h1 class="text-white text-center mt-2">57,5%</h1>
+                                <p class="text-white text-center fs-5">de femmes parmi nos managers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- debut de la derniere section -->
+            <section>
+                <h3 class="text-center mt-5">Simplon est une entreprise labellisée par :</h3>
+                <div class="container">
+                    <div class="grid-contain-partenaire mt-5 mb-5 ">
+                        <div class="partenaires">
+                            <img src="https://simplon.co/storage/69751/datadocke.jpeg" alt="" class="w-100 h-75">
+                        </div>
+                        <div class="partenaires">
+                            <img src="https://simplon.co/storage/69753/global-compact-logo.jpeg" alt="" class="w-100 h-75">
+                        </div>
+                        <div class="partenaires">
+                            <img src="https://simplon.co/storage/69754/Agre%CC%81ment-ESUS-2-21.png" alt="" class="w-100 h-75">
+                        </div>
+                        <div class="partenaires">
+                            <img src="https://simplon.co/storage/69755/Logo-Qualiopi.jpg" alt="" class="w-100 h-75">
+                        </div>
+                        <div class="partenaires">
+                            <img src="https://simplon.co/storage/70344/Ecovadis-Silver-2022-.jpeg" alt="" class="w-100 h-75">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!------------Fin Section de votre Contenu ------------------>
+        <!---------------- Debut Section Footer ---------------------->
+        <footer>
+            <div class="Footer_Container">
+            <br><br>
+                <!---------------- Debut Section Newsletters ------------->
+                <div class="Section_Footer_Newsletters">
+                    <div class="Section_Footer_Containt">
+                        <div class="Section_Footer_Newsletters_Text">
+                            <h2>Inscrivez-Vous a la NewsLetters</h2>
+                            <p>Inscrivez-vous recevoir toutes les
+                                nouvelles Actualités !</p>
+                        </div>
+                        <div class="Section_Footer_Newsletters_Input">
+                            <input type="text" placeholder="Saisissez Votre e-mail">
+                            <button>S'inscrire</button>
+                        </div>
+                    </div>
+                </div>
+                <!--------------- Fin Section Newsletters --------------->
+                <div class="Section_Footer">
+                    <div class="Section_Footer_logo">
+                        <h3><img src="../public/images/Menu_Footer/logo.png" alt="">&nbsp;Simplon.co</h3>
+                        <p>Simplon Sénégal vous forme aux métiers du numérique, développement web et mobile, digitalisation</p>
+                        <span><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                    <div>
+                        <h3>Liens Utiles</h3>
+                        <p><a href="../simplon-fondation/simplon-fondation.html">Simplon Fondation</a></p>
+                        <p><a href="../candidats/candidater.html">Candidater</a></p>
+                        <p><a href="../ecosystem_partenaire/ecosystem_patenaire.html">Ecosystème et partenaires</a></p>
+                    </div>
+                    <div>
+                        <h3>FAQ</h3>
+                        <p><a href="../qui_somme_nous/qui_somme_nous.html">Qui sommes nous ?</a></p>
+                        <p><a href="../anti_faq/antifaq.html">Anti FAQ</a></p>
+                        <p><a href="../pedagogie_simplon/pedagogie.html">Notre pédagogie</a></p>
+                    </div>
+                    <div>
+                        <h3>Autre</h3>
+                        <p><a href="../contact/contact.html">Contact</a></p>
+                        <p><a href="../mention_legale/mention.html">Mention légale</a></p>
+                        <p><a href="../accessibile/accessibilite.html">Accesssibilité</a></p>
+                    </div>  
+                </div>
+                <br><br>
+                <hr style="width: 80%; margin: auto;">
+                <p class="Copyright">Copyright &nbsp;<i class="fa-solid fa-copyright"></i> &nbsp;2023 Simplon Education.</p>
+                <br>
+            </div>
+        </footer>
+        <!----------------Fin Section Footer ------------------->
+    </div>
+    <!------------------Fin Section Container_Menu --------------------------->
+</body>
+
+</html>

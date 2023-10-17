@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Declaration des variable pour les couleurs */
+:root {
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color: white;
+}
+
+/* stylisation de la baniere */
+
+.banierre {
+    background-image: url('../images/ecosytem_partenaire/CaptureEco.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: -10vh;
+    color: white;
+    padding: 28vh 0;
+}
+
+.banierre h1 {
+    font-size: 9vh;
+}
+
+/* Stylisation de la derniere section */
+.grid-contain-partenaire {
+    display: grid;
+    /* border: 3px solid; */
+    grid-template-columns: repeat(5, 18%);
+    gap: 28px;
+}
+
+.partenaires {
+    /* border: 3px solid red; */
+    padding: 10px;
+    height: 100px;
+    box-shadow: 5px 5px 25px 1px #cdcdcdac;
+    background-color: var(--third-color);
+}
+
+/* Media queries */
+@media (max-width: 767px){
+    .banierre h1 {
+        font-size: 3vh;
+    }
+    .banierre p{
+        font-size: 1.5vh;
+    }
+    .grid-contain-partenaire {
+        display: grid;
+        /* border: 3px solid; */
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .banierre h1 {
+            font-size: 3vh;
+    }
+    
+    .banierre p {
+        font-size: 1.5vh;
+    }
+
+}

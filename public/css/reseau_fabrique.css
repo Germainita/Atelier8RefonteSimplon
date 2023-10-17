@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Declaration des variable pour les couleurs */
+:root {
+    --main-color: #CE0033;
+    --second-color: #F3F3F3;
+    --third-color: white;
+}
+#map {
+    height: 100%;
+    padding-top: 0 !important;
+    z-index: 2;
+}
+
+/* stylisation de la baniere */
+
+.banierre {
+    background-image: url('../images/article/banierre.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: -10vh;
+    color: white;
+    padding: 28vh 0;
+}
+
+.banierre h1 {
+    font-size: 9vh;
+}
+/* Stylisation de la carte */
+.grid-contain-carte{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.section-recherche{
+    background-color: var(--main-color);
+    font-weight: bold;
+    color: black;
+}
+
+
+/* Stylisation de la deuxieme section simplon au national */
+.grid-contain-national{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px 0 0 20px;
+    
+}
+.image-carte-national{
+    padding-top: 30px
+}
+.paragraphe-national{
+    padding-top: 5vh;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.image-carte-national img{
+    width: 100%;
+    height: 250px;
+}
+
+/* Debut stylisation simplon internattionnal  */
+.grid-contain-international{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px 0 0 20px;
+    
+}
+.image-carte-international{
+    padding-top: 30px
+}
+.paragraphe-international{
+    padding-top: 5vh;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.image-carte-international img{
+    width: 100%;
+    height: 250px;
+    padding-right: 10vh;
+}
+
+/* Debut stylisation de la section fabrique */
+.grid-contain-fabrique{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /* border: 3px solid; */
+}
+.paragraphe-fabrique{
+    /* border: 2px solid red; */
+    text-align: justify;
+    font-size: 1.2em;
+}
+.image-fabrique{
+    /* border: 3px solid green; */
+    width: 100%;
+}
+
+
+/* Media queries */
+@media (max-width: 767px) {
+    .banierre h1 {
+        font-size: 3vh;
+    }
+
+    .banierre p {
+        font-size: 1.5vh;
+    }
+
+    .grid-contain-partenaire {
+        display: grid;
+        /* border: 3px solid; */
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+    }
+    .grid-contain-national {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 0 0 20px;
+
+    }
+    .grid-contain-international {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 0 0 20px;
+        /* border: 3px solid;    */
+    }
+    .grid-contain-fabrique {
+        display: grid;
+        grid-template-columns: 100%;
+        /* border: 3px solid green; */
+    }
+    .paragraphe-fabrique {
+        /* border: 2px solid red; */
+        text-align: justify;
+        font-size: 0.9em;
+    }
+
+    .image-fabrique {
+        /* border: 10px solid rgb(4, 0, 128); */
+        width: 100%;
+    }
+    .grid-contain-carte {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+.banierre h1 {
+        font-size: 3vh;
+    }
+
+    .banierre p {
+        font-size: 1.5vh;
+    }
+
+    .grid-contain-partenaire {
+        display: grid;
+        /* border: 3px solid; */
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+    }
+
+    .grid-contain-national {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 0 0 20px;
+
+    }
+
+    .grid-contain-international {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 0 0 20px;
+        /* border: 3px solid;    */
+    }
+
+    .grid-contain-fabrique {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* border: 3px solid green; */
+    }
+
+    .paragraphe-fabrique {
+        /* border: 2px solid red; */
+        text-align: justify;
+        font-size: 0.9em;
+    }
+
+    .image-fabrique {
+        /* border: 3px solid green; */
+        width: 100%;
+    }
+    .grid-contain-carte {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
