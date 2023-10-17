@@ -1,7 +1,28 @@
 
-#img{
-    width: 100%;
-    height: 500px;
+/* La banierre  */
+.banierre{
+    background-image: url('https://img.freepik.com/free-photo/african-business-male-people-shaking-hands_1303-18516.jpg?size=626&ext=jpg&ga=GA1.1.59389668.1692912989&semt=sph');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    padding: 20vh 0;
+}
+.banierre h1{
+    font-size: 9vh;
+}
+
+.banierre .chemin{
+    color: white;
+    position: relative;
+    top: 10vh;
+    text-align: left;
+}
+
+.banierre a{
+    color: white;
+    text-decoration: none;
 }
 #marge{
    

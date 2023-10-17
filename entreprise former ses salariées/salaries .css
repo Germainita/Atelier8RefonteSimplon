@@ -1,7 +1,4 @@
-#img{
-    width: 100%;
-    height: 500px;
-}
+
 :root {
     --main-color: #CE0033;
     --second-color: #F3F3F3;
@@ -9,11 +6,32 @@
     --header-color: #262626;
 }
 
-.banner-container{
-    background-color: #f6f6f6;
-    height: 250px;
-    padding: 50px;
+/* La banierre  */
+.banierre{
+    background-image: url('https://img.freepik.com/premium-photo/they-each-bring-something-different-table-cropped-shot-group-corporate-business-colleagues-having-meeting-around-table-boardroom_590464-54346.jpg?size=626&ext=jpg&ga=GA1.1.59389668.1692912989&semt=sph');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    padding: 20vh 0;
 }
+.banierre h1{
+    font-size: 9vh;
+}
+
+.banierre .chemin{
+    color: white;
+    position: relative;
+    top: 10vh;
+    text-align: left;
+}
+
+.banierre a{
+    color: white;
+    text-decoration: none;
+}
+
 .contain-chiffre-impact{
     display: flex;
     /* border: 4px solid green; */
@@ -27,6 +45,13 @@
 }
 #chiffre-except{
     border: none !important;
+}
+
+.banner-container{
+    background-color: #f6f6f6;
+    height: 250px;
+    padding: 50px;
+    /* margin-top: 10vh; */
 }
 
 @media (max-width:768px){

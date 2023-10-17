@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="../public/css/accessibilite.css">
     <link rel="stylesheet" href="../public/css/simplon-fondation.css">
     
+    <!-- Link script popup validation  -->
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="../Formation_Securite/Securite.js"></script>
+    
     <script src="../Menu/Menu.js"></script>
     <title>Simplon fondation</title>
 </head>
@@ -433,8 +440,8 @@
                                 nouvelles Actualités !</p>
                         </div>
                         <div class="Section_Footer_Newsletters_Input">
-                            <input type="text" placeholder="Saisissez Votre e-mail">
-                            <button>S'inscrire</button>
+                            <input type="text" placeholder="Saisissez Votre e-mail" id="email">
+                            <button onclick="inscription()">S'inscrire</button>
                         </div>
                     </div>
                 </div>
